@@ -4853,8 +4853,8 @@
     "stats": []
   },
   "S410": {
-    "name": "S410",
-    "stats": []
+    "name": "Cold Penetration",
+    "stats": ["Damage Penetrates 4% Cold Resistance"]
   },
   "S411": {
     "name": "S411",
@@ -5709,8 +5709,8 @@
     "stats": []
   },
   "S602": {
-    "name": "S602",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S603": {
     "name": "S603",
@@ -6031,8 +6031,8 @@
     "stats": []
   },
   "S674": {
-    "name": "S674",
-    "stats": []
+    "name": "Maximum Mana",
+    "stats": ["8% increased Maximum Mana"]
   },
   "S675": {
     "name": "S675",
@@ -6107,8 +6107,10 @@
     "stats": []
   },
   "S691": {
-    "name": "S691",
-    "stats": []
+    "name": "Attribute",
+    "stats": [
+      "+5 to any Attribute"
+    ]
   },
   "S692": {
     "name": "BLUPA small",
@@ -6187,8 +6189,8 @@
     "stats": []
   },
   "S709": {
-    "name": "S709",
-    "stats": []
+    "name": "Spell and Minion Damage",
+    "stats": ["5% increased Spell Damage","Minions deal 5% increased Damage"]
   },
   "S710": {
     "name": "Energy Shield",
@@ -6291,8 +6293,10 @@
     "stats": []
   },
   "S732": {
-    "name": "S732",
-    "stats": []
+    "name": "Attribute",
+    "stats": [
+      "+5 to any Attribute"
+    ]
   },
   "S733": {
     "name": "Attribute",
@@ -6455,8 +6459,8 @@
     "stats": []
   },
   "S769": {
-    "name": "S769",
-    "stats": []
+    "name": "Spell and Minion Damage",
+    "stats": ["5% increased Spell Damage","Minions deal 5% increased Damage"]
   },
   "S770": {
     "name": "Energy Shield",
@@ -7513,8 +7517,10 @@
     "stats": []
   },
   "S1004": {
-    "name": "S1004",
-    "stats": []
+    "name": "Attribute",
+    "stats": [
+      "+5 to any Attribute"
+    ]
   },
   "S1005": {
     "name": "S1005",
@@ -7533,8 +7539,10 @@
     "stats": []
   },
   "S1009": {
-    "name": "S1009",
-    "stats": []
+    "name": "Attribute",
+    "stats": [
+      "+5 to any Attribute"
+    ]
   },
   "S1010": {
     "name": "S1010",
