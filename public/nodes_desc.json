@@ -432,8 +432,8 @@
     "stats": []
   },
   "N57": {
-    "name": "N57",
-    "stats": []
+		"name": "Shattered Crystal",
+		"stats": ["60% reduced Ice Crystal Life"]
   },
   "N58": {
     "name": "Dependable Ward",
@@ -3153,8 +3153,8 @@
     "stats": []
   },
   "S7": {
-    "name": "S7",
-    "stats": []
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
   },
   "S8": {
     "name": "S8",
@@ -3189,8 +3189,8 @@
     "stats": ["10% increased Effect of Ignite"]
   },
   "S16": {
-    "name": "S16",
-    "stats": []
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
   },
   "S17": {
     "name": "Lightning Damage",
@@ -3277,8 +3277,8 @@
     "stats": ["12% increased Fire Damage"]
   },
   "S38": {
-    "name": "S38",
-    "stats": []
+		"name": "Cold Damage",
+		"stats": ["12% increased Cold Damage"]
   },
   "S39": {
     "name": "S39",
@@ -4123,8 +4123,8 @@
     "stats": []
   },
   "S236": {
-    "name": "S236",
-    "stats": []
+		"name": "Physical Damage",
+		"stats": ["10% increased Physical Damage"]
   },
   "S237": {
     "name": "S237",
@@ -5284,8 +5284,8 @@
     "stats": []
   },
   "S504": {
-    "name": "S504",
-    "stats": []
+		"name": "Link Cast Speed",
+		"stats": ["Link Skills have 8% increased Cast Speed"]
   },
   "S505": {
     "name": "S505",
@@ -7643,8 +7643,8 @@
     "stats": []
   },
   "S1032": {
-    "name": "S1032",
-    "stats": []
+		"name": "Armour",
+		"stats": ["+20 to Armour"]
   },
   "S1033": {
     "name": "Evasion",
@@ -11475,8 +11475,8 @@
     ]
   },
   "S1843": {
-    "name": "S1843",
-    "stats": []
+		"name": "Bleeding Chance",
+		"stats": ["5% chance to inflict Bleeding on Hit"]
   },
   "S1844": {
     "name": "Attribute",
@@ -11527,8 +11527,8 @@
     "stats": []
   },
   "S1854": {
-    "name": "S1854",
-    "stats": []
+		"name": "Evasion and Energy Shield",
+		"stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
   },
   "S1855": {
     "name": "Attribute",
