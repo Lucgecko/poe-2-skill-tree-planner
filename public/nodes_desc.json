@@ -1265,8 +1265,8 @@
     ]
   },
   "N233": {
-    "name": "N233",
-    "stats": []
+    "name": "Devoted Protector",
+    "stats": ["15% increased Mana Regeneration Rate", "Regenerate 1% of Life per second", "+5 to Strength and Intelligence"]
   },
   "N234": {
     "name": "N234",
@@ -5066,8 +5066,8 @@
     "stats": []
   },
   "S458": {
-    "name": "S458",
-    "stats": []
+    "name": "Damage against Ailments",
+    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "S459": {
     "name": "S459",
@@ -5133,8 +5133,8 @@
     ]
   },
   "S473": {
-    "name": "S473",
-    "stats": []
+    "name": "Spell Critical Damage",
+    "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S474": {
     "name": "Attribute",
@@ -5292,12 +5292,12 @@
     "stats": []
   },
   "S506": {
-    "name": "S506",
-    "stats": []
+    "name": "Spell Critical Chance",
+    "stats": ["8% increased Critical Hit Chance for Spells"]
   },
   "S507": {
-    "name": "S507",
-    "stats": []
+    "name": "Spell Critical Damage",
+    "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S508": {
     "name": "BLUPA small",
@@ -5522,8 +5522,8 @@
     "stats": []
   },
   "S559": {
-    "name": "S559",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S560": {
     "name": "S560",
@@ -5586,8 +5586,8 @@
     "stats": ["10% increased Fire Damage", ""]
   },
   "S574": {
-    "name": "S574",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["10% increased maximum Energy Shield"]
   },
   "S575": {
     "name": "S575",
@@ -5601,16 +5601,16 @@
     ]
   },
   "S577": {
-    "name": "S577",
-    "stats": []
+    "name": "Energy Shield and Armour",
+    "stats": ["8% increased Armour", "8% increased maximum Energy Shield"]
   },
   "S578": {
     "name": "S578",
     "stats": []
   },
   "S579": {
-    "name": "S579",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S580": {
     "name": "Attribute",
@@ -5649,8 +5649,8 @@
     ]
   },
   "S588": {
-    "name": "S588",
-    "stats": []
+    "name": "Mana",
+    "stats": ["8% increased Maximum Mana"]
   },
   "S589": {
     "name": "S589",
@@ -5661,8 +5661,8 @@
     "stats": []
   },
   "S591": {
-    "name": "S591",
-    "stats": []
+    "name": "Energy Shield and Armour",
+    "stats": ["8% increased Armour", "8% increased maximum Energy Shield"]
   },
   "S592": {
     "name": "BLUPA small",
@@ -5731,8 +5731,8 @@
     "stats": []
   },
   "S607": {
-    "name": "S607",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S608": {
     "name": "S608",
@@ -6027,8 +6027,8 @@
     ]
   },
   "S673": {
-    "name": "S673",
-    "stats": []
+    "name": "Minion Life",
+    "stats": ["Minions have 10% increased maximum Life"]
   },
   "S674": {
     "name": "Maximum Mana",
@@ -6281,8 +6281,8 @@
     "stats": ["8% increased Damage with Staves"]
   },
   "S729": {
-    "name": "S729",
-    "stats": []
+    "name": "Mana",
+    "stats": ["10% increased maximum Mana"]
   },
   "S730": {
     "name": "S730",
@@ -6373,8 +6373,8 @@
     "stats": []
   },
   "S750": {
-    "name": "S750",
-    "stats": []
+    "name": "Mana",
+    "stats": ["10% increased maximum Mana"]
   },
   "S751": {
     "name": "S751",
@@ -7553,8 +7553,8 @@
     "stats": []
   },
   "S1012": {
-    "name": "S1012",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": ["8% increased Melee Damage"]
   },
   "S1013": {
     "name": "Area Damage",
@@ -7563,8 +7563,8 @@
     ]
   },
   "S1014": {
-    "name": "S1014",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": ["8% increased Melee Damage"]
   },
   "S1015": {
     "name": "S1015",
@@ -7753,8 +7753,8 @@
     "stats": []
   },
   "S1057": {
-    "name": "S1057",
-    "stats": []
+    "name": "Stun Damage Multiplier",
+    "stats": ["12% increased Stun Buildup"]
   },
   "S1058": {
     "name": "S1058",
@@ -7817,8 +7817,8 @@
     ]
   },
   "S1071": {
-    "name": "S1071",
-    "stats": []
+    "name": "Stun Damage Multiplier",
+    "stats": ["12% increased Stun Buildup"]
   },
   "S1072": {
     "name": "S1072",
