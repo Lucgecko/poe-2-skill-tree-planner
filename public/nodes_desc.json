@@ -400,8 +400,8 @@
     "stats": []
   },
   "N49": {
-    "name": "N49",
-    "stats": []
+    "name": "Crushing Storms",
+    "stats": ["16% increased Elemental Damage", "Damage Penetrates 5% Elemental Resistances"]
   },
   "N50": {
     "name": "N50",
@@ -420,8 +420,8 @@
     "stats": []
   },
   "N54": {
-    "name": "N54",
-    "stats": []
+    "name": "Wither Away",
+    "stats": ["Unwithered Enemies are Withered for 8 seconds when they enter your Presence 20% increased Effect of Withered"]
   },
   "N55": {
     "name": "N55",
@@ -567,8 +567,8 @@
     "stats": []
   },
   "N88": {
-    "name": "N88",
-    "stats": []
+    "name": "Explosive Impact",
+    "stats": ["15% increased Area of Effect", "Burning Enemies you Kill have 5% chance to Explode, dealing a tenth of their Maximum Life as Fire Damage"]
   },
   "N89": {
     "name": "N89",
@@ -618,12 +618,12 @@
     ]
   },
   "N100": {
-    "name": "N100",
-    "stats": []
+    "name": "Mana Bloom",
+    "stats": ["25% increased Maximum Mana"]
   },
   "N101": {
-    "name": "N101",
-    "stats": []
+    "name": "Arcane Blossom",
+    "stats": ["16% increased Mana Recovery Rate"]
   },
   "N102": {
     "name": "N102",
@@ -774,8 +774,8 @@
     ]
   },
   "N132": {
-    "name": "N132",
-    "stats": []
+    "name": "Exploit the Elements",
+    "stats": ["40% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "N133": {
     "name": "N133",
@@ -882,12 +882,12 @@
     ]
   },
   "N156": {
-    "name": "N156",
-    "stats": []
+    "name": "Critical Overload",
+    "stats": ["10% increased Critical Hit Chance for Spells", "15% increased Spell Damage if you've dealt a Critical Strike recently"]
   },
   "N157": {
-    "name": "N157",
-    "stats": []
+    "name": "Poison Damage Notable",
+    "stats": ["25% increased Effect of Poison"]
   },
   "N158": {
     "name": "Thickened Arteries",
@@ -905,8 +905,8 @@
     "stats": []
   },
   "N161": {
-    "name": "N161",
-    "stats": []
+    "name": "Darkness",
+    "stats": ["25% increased Chaos Damage"]
   },
   "N162": {
     "name": "N162",
@@ -961,8 +961,8 @@
     ]
   },
   "N172": {
-    "name": "N172",
-    "stats": []
+    "name": "Jagged Shards",
+    "stats": ["15% increased Critical Hit Chance for Spells", "18% increased Physical Damage"]
   },
   "N173": {
     "name": "Entropy",
@@ -994,8 +994,8 @@
     "stats": []
   },
   "N178": {
-    "name": "N178",
-    "stats": []
+    "name": "Spell Haste",
+    "stats": ["10% increased Cast Speed"]
   },
   "N179": {
     "name": "Mana Blessing",
@@ -1009,8 +1009,8 @@
     "stats": []
   },
   "N181": {
-    "name": "N181",
-    "stats": []
+    "name": "Spellblade",
+    "stats": ["32% increased Spell Damage"]
   },
   "N182": {
     "name": "N182",
@@ -1050,8 +1050,8 @@
     "stats": []
   },
   "N189": {
-    "name": "N189",
-    "stats": []
+    "name": "Immortal Infamy",
+    "stats": ["Recover 2% of Life on Kill"]
   },
   "N190": {
     "name": "N190",
@@ -1062,8 +1062,8 @@
     "stats": []
   },
   "N192": {
-    "name": "N192",
-    "stats": []
+    "name": "Immortal Thirst",
+    "stats": ["25% increased ammount of Mana Leeched"]
   },
   "N193": {
     "name": "Rattling Ball",
@@ -1136,16 +1136,16 @@
     ]
   },
   "N206": {
-    "name": "N206",
-    "stats": []
+    "name": "Raw Destruction",
+    "stats": ["16% increased Spell Damage", "Minions deal 16% increased Damage", "+10 to Intelligence"]
   },
   "N207": {
     "name": "N207",
     "stats": []
   },
   "N208": {
-    "name": "N208",
-    "stats": []
+    "name": "25% increased Attack Damage",
+    "stats": [""]
   },
   "N209": {
     "name": "N209",
@@ -1173,8 +1173,8 @@
     "stats": []
   },
   "N214": {
-    "name": "N214",
-    "stats": []
+    "name": "Tenfold Attack",
+    "stats": ["10% increased Attack Speed"]
   },
   "N215": {
     "name": "N215",
@@ -1424,8 +1424,8 @@
     ]
   },
   "N263": {
-    "name": "N263",
-    "stats": []
+    "name": "Accuracy",
+    "stats": ["10% increased Global Accuracy Rating"]
   },
   "N264": {
     "name": "Serrated Edges",
@@ -1446,8 +1446,8 @@
     "stats": []
   },
   "N268": {
-    "name": "N268",
-    "stats": []
+    "name": "Martial Artistry",
+    "stats": ["+25% to Critical Strike Multiplier with Staves"]
   },
   "N269": {
     "name": "N269",
@@ -2718,8 +2718,8 @@
     "stats": []
   },
   "N507": {
-    "name": "N507",
-    "stats": []
+    "name": "Volatile Grenades",
+    "stats": ["25% reduced Grenade Duration"]
   },
   "N508": {
     "name": "N508",
@@ -2990,8 +2990,8 @@
     ]
   },
   "N558": {
-    "name": "N558",
-    "stats": []
+    "name": "Full Salvo",
+    "stats": ["25% increased Damage with Crossbows for each type of Ammunition fire in the past 10 seconds"]
   },
   "N559": {
     "name": "Apocalypse",
@@ -3105,12 +3105,12 @@
     ]
   },
   "N577": {
-    "name": "N577",
-    "stats": []
+    "name": "Quarterstaff Speed Notable",
+    "stats": ["10% increased Attack Speed with Staves"]
   },
   "N578": {
-    "name": "N578",
-    "stats": []
+    "name": "Quarterstaff Damage Notable",
+    "stats": ["25% increased Damage with Staves"]
   },
   "N579": {
     "name": "N579",
@@ -4940,8 +4940,8 @@
     "stats": []
   },
   "S430": {
-    "name": "S430",
-    "stats": []
+    "name": "Fire Penetration",
+    "stats": ["Damage penetrates 4% Fire Resistance"]
   },
   "S431": {
     "name": "Attribute",
@@ -4950,8 +4950,8 @@
     ]
   },
   "S432": {
-    "name": "S432",
-    "stats": []
+    "name": "Damage against Ailments",
+    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "S433": {
     "name": "S433",
@@ -5020,8 +5020,8 @@
     ]
   },
   "S448": {
-    "name": "S448",
-    "stats": []
+    "name": "Damage against Ailments",
+    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "S449": {
     "name": "S449",
