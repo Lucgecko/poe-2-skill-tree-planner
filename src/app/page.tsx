@@ -121,6 +121,35 @@ export default function Home() {
         {activeNodes.size}/122 passive skills
       </div>
 
+      <button
+    onClick={() => {
+      setActiveNodes(new Set()); // Clear the active skills
+      setAllNodes((prevNodes) => {
+        // Reset all nodes to their unactivated state
+        const updatedNodes = new Map(prevNodes);
+        updatedNodes.forEach((node) => {
+          node.activated = false;
+          node.highlighted = false; // Optional: unhighlight all nodes
+        });
+        return updatedNodes;
+      });
+    }}
+    style={{
+      backgroundColor: '#ff6666',
+      color: 'white',
+      border: 'none',
+      borderRadius: '4px',
+      padding: '5px 10px',
+      cursor: 'pointer',
+      fontSize: '14px',
+      position: 'absolute',
+          top: '10px', // Adjust the position as necessary
+          left: '240px',
+    }}
+  >
+    Reset
+  </button>
+
 
       <div
         style={{
