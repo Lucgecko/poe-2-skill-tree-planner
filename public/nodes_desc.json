@@ -7441,8 +7441,8 @@
     ]
   },
   "S989": {
-    "name": "S989",
-    "stats": []
+    "name": "Increased Duration",
+    "stats": ["10% increased Skill Effect Duration"]
   },
   "S990": {
     "name": "Attribute",
@@ -7599,8 +7599,8 @@
     "stats": []
   },
   "S1026": {
-    "name": "S1026",
-    "stats": []
+    "name": "Life Costs",
+    "stats": ["Skill Cost Life instead of 6% of Mana Cost"]
   },
     "S1027": {
         "name": "Melee Damage",
@@ -7786,7 +7786,7 @@
     "name": "S1067",
     "stats": []
   },
-    "S1051": {
+    "S1068": {
         "name": "Melee Damage",
         "stats": [
             "10% increased Melee Damage"
@@ -7973,8 +7973,8 @@
     ]
   },
   "S1109": {
-    "name": "S1109",
-    "stats": []
+    "name": "Empowered Attack Damage",
+    "stats": ["Empowered Attacks deam 16% increased Damage"]
   },
     "S1110": {
         "name": "Warcry Cooldown Speed",
@@ -8543,12 +8543,12 @@
     ]
   },
   "S1229": {
-    "name": "S1229",
-    "stats": []
+    "name": "Stun Threshold",
+    "stats": ["12% increased Stun Threshold"]
   },
   "S1230": {
-    "name": "S1230",
-    "stats": []
+    "name": "Stun Threshold",
+    "stats": ["12% increased Stun Threshold"]
   },
   "S1231": {
     "name": "S1231",
@@ -8770,8 +8770,8 @@
     ]
   },
   "S1275": {
-    "name": "S1275",
-    "stats": []
+    "name": "Attack Area",
+    "stats": ["8% increased Area of Effect for Attacks"]
   },
   "S1276": {
     "name": "Armour",
