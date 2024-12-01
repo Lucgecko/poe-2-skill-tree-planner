@@ -501,8 +501,8 @@
     "stats": []
   },
   "N73": {
-    "name": "N73",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["Gain 6% of Physical Damage as Chaos Damage"]
   },
   "N74": {
     "name": "N74",
@@ -529,8 +529,8 @@
     "stats": []
   },
   "N80": {
-    "name": "N80",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["Minions have +150 to Accuracy Rating", "25% increased Minion Accuracy Rating"]
   },
   "N81": {
     "name": "Calibration",
@@ -825,8 +825,8 @@
     ]
   },
   "N143": {
-    "name": "N143",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["30% increased Spell Damage", "5% reduced Cast Speed"]
   },
   "N144": {
     "name": "N144",
@@ -946,8 +946,8 @@
     ]
   },
   "N169": {
-    "name": "N169",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["18% increased Maximum Energy Shield", "12% increased Mana Regeneration Rate", "6% increased Intelligence"]
   },
   "N170": {
     "name": "N170",
@@ -1085,16 +1085,16 @@
     ]
   },
   "N196": {
-    "name": "N196",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["10% increased Cast Speed"]
   },
   "N197": {
     "name": "N197",
     "stats": []
   },
   "N198": {
-    "name": "N198",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["6% of Damage taken Recouped as Life"]
   },
   "N199": {
     "name": "Moment of Truth",
@@ -1140,8 +1140,8 @@
     "stats": ["16% increased Spell Damage", "Minions deal 16% increased Damage", "+10 to Intelligence"]
   },
   "N207": {
-    "name": "N207",
-    "stats": []
+    "name": "BLUPA notable",
+    "stats": ["30% increased Maximum Energy Shield", "+10 to Intelligence"]
   },
   "N208": {
     "name": "25% increased Attack Damage",
@@ -3124,6 +3124,10 @@
     "name": "N581",
     "stats": []
   },
+    "N582": {
+    "name": "Savoured Blood",
+    "stats": ["50% increased Amount of Life Leeched", "Leech Life 20% slower"]
+  },
   "S1": {
     "name": "Lightning Damage",
     "stats": ["12% increased Lightning Damage"]
@@ -4301,16 +4305,16 @@
     "stats": []
   },
   "S280": {
-    "name": "S280",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["Minions deal 10% increased Damage"]
   },
   "S281": {
-    "name": "S281",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["Minions deal 10% increased Damage"]
   },
   "S282": {
-    "name": "S282",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Physical Damage"]
   },
   "S283": {
     "name": "S283",
@@ -4381,8 +4385,8 @@
     "stats": []
   },
   "S299": {
-    "name": "S299",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["Minions deal 10% increased Damage"]
   },
   "S300": {
     "name": "S300",
@@ -5296,8 +5300,8 @@
     "stats": []
   },
   "S508": {
-    "name": "S508",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["15% increased Maximum Energy Shield"]
   },
   "S509": {
     "name": "S509",
@@ -5460,8 +5464,8 @@
     "stats": []
   },
   "S546": {
-    "name": "S546",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["15% increased Maximum Energy Shield"]
   },
   "S547": {
     "name": "S547",
@@ -5574,12 +5578,12 @@
     "stats": []
   },
   "S572": {
-    "name": "S572",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Fire Damage", ""]
   },
   "S573": {
-    "name": "S573",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Fire Damage", ""]
   },
   "S574": {
     "name": "S574",
@@ -5661,8 +5665,8 @@
     "stats": []
   },
   "S592": {
-    "name": "S592",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["Minions deal 10% increased Damage", "10% increased Cold damage"]
   },
   "S593": {
     "name": "S593",
@@ -5765,8 +5769,8 @@
     "stats": []
   },
   "S615": {
-    "name": "S615",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
   },
   "S616": {
     "name": "S616",
@@ -5861,12 +5865,12 @@
     "stats": []
   },
   "S637": {
-    "name": "S637",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["3% increased Cast Speed"]
   },
   "S638": {
-    "name": "S638",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["3% increased Cast Speed"]
   },
   "S639": {
     "name": "S639",
@@ -5889,8 +5893,8 @@
     "stats": []
   },
   "S644": {
-    "name": "S644",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["3% of Damage taken Recouped as Life"]
   },
   "S645": {
     "name": "S645",
@@ -5945,12 +5949,12 @@
     "stats": []
   },
   "S656": {
-    "name": "S656",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S657": {
-    "name": "S657",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S658": {
     "name": "Attribute",
@@ -6059,8 +6063,8 @@
     "stats": []
   },
   "S681": {
-    "name": "S681",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
   },
   "S682": {
     "name": "Attribute",
@@ -6087,8 +6091,8 @@
     "stats": ["Minions have 10% increased maximum Life"]
   },
   "S687": {
-    "name": "S687",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Maximum Mana"]
   },
   "S688": {
     "name": "S688",
@@ -6107,8 +6111,8 @@
     "stats": []
   },
   "S692": {
-    "name": "S692",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
   },
   "S693": {
     "name": "Energy Shield Delay",
@@ -6535,8 +6539,8 @@
     ]
   },
   "S788": {
-    "name": "S788",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["10% increased Critical Dmage Bonus"]
   },
   "S789": {
     "name": "Attribute",
@@ -6552,8 +6556,8 @@
     "name": "S791",
     "stats": []
   },
-  "S792": {
-    "name": "S792",
+  "BLUPA small": {
+    "name": "10% increased Critical Hit Chance",
     "stats": []
   },
   "S793": {
@@ -6643,8 +6647,8 @@
     "stats": []
   },
   "S814": {
-    "name": "S814",
-    "stats": []
+    "name": "ES recharge small",
+    "stats": [""]
   },
   "S815": {
     "name": "S815",
@@ -6739,8 +6743,8 @@
     "stats": []
   },
   "S836": {
-    "name": "S836",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Maximum Mana"]
   },
   "S837": {
     "name": "S837",
@@ -6789,8 +6793,8 @@
     "stats": []
   },
   "S848": {
-    "name": "S848",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Maximum Mana"]
   },
   "S849": {
     "name": "S849",
@@ -6847,8 +6851,8 @@
     "stats": []
   },
   "S862": {
-    "name": "S862",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["+11 to Evasion Rating", "+7 to max Energy Shield"]
   },
   "S863": {
     "name": "Melee Damage",
@@ -6865,8 +6869,8 @@
     "stats": []
   },
   "S866": {
-    "name": "S866",
-    "stats": []
+    "name": "BLUPA small",
+    "stats": ["8% increased Evasion Rating", "8% increased max Energy Shield"]
   },
   "S867": {
     "name": "S867",
@@ -9642,12 +9646,12 @@
     "stats": []
   },
   "S1451": {
-    "name": "S1451",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": ["12% increased Damage with Two Handed Weapons"]
   },
   "S1452": {
-    "name": "S1452",
-    "stats": []
+    "name": "Dual Wielding Attack",
+    "stats": ["12% increased Attack Damage while Dual Wielding"]
   },
   "S1453": {
     "name": "S1453",
@@ -9689,8 +9693,8 @@
     "stats": []
   },
   "S1461": {
-    "name": "12% increased Attack Damage while Dual Wielding",
-    "stats": []
+    "name": "Dual Wielding Attack",
+    "stats": ["12% increased Attack Damage while Dual Wielding"]
   },
   "S1462": {
     "name": "S1462",
@@ -9699,7 +9703,7 @@
   "S1463": {
     "name": "Two Handed Damage",
     "stats": [
-      "12% increased Damage lwith Two Handed Weapons"
+      "12% increased Damage with Two Handed Weapons"
     ]
   },
   "S1464": {
