@@ -1158,8 +1158,8 @@
     ]
   },
   "N211": {
-    "name": "N211",
-    "stats": []
+    "name": "Open Mind",
+    "stats": ["25% increased Mana Regeneration Rate"]
   },
   "N212": {
     "name": "Covering Ward",
@@ -1640,8 +1640,8 @@
   "N307": {
     "name": "Honed Instincts",
     "stats": [
+      "8% increased Projectile Speed",
       "8% increased Attack Speed",
-      "6% increased Global Accuracy Rating",
       "+10 to Dexterity"
     ]
   },
@@ -1676,11 +1676,10 @@
     ]
   },
   "N313": {
-    "name": "Master Fletcher",
+    "name": "Clean Shot",
     "stats": [
-      "8% increased Projectile Speed",
-      "8% increased Attack Speed with Bows",
-      "8% increased Attack Speed with Crossbows"
+      "15% chance to Pierce an Enemy",
+      "15% increased Projectile Damage"
     ]
   },
   "N314": {
@@ -1750,9 +1749,11 @@
     ]
   },
   "N325": {
-    "name": "Hale Traveller",
+    "name": "Blur",
     "stats": [
-      "25% increased Life Recovery from Flasks"
+      "4% increased Movement Speed",
+      "16% increased Evasion Rating",
+      "+10 to Dexterity"
     ]
   },
   "N326": {
@@ -1833,7 +1834,7 @@
   "N340": {
     "name": "Break Focus",
     "stats": [
-      "12% increased Effect of your Marks"
+      "Enemies you Mark have 15% reduced Accuracy Rating"
     ]
   },
   "N341": {
@@ -2073,8 +2074,8 @@
     "stats": []
   },
   "N384": {
-    "name": "N384",
-    "stats": []
+    "name": "Lasting Concoctions",
+    "stats": ["25% increased FLask Effect Duration", "25% increased Flask Charges Gained"]
   },
   "N385": {
     "name": "N385",
@@ -6043,8 +6044,8 @@
     ]
   },
   "S678": {
-    "name": "S678",
-    "stats": []
+    "name": "Energy Shield Delay",
+    "stats": ["10% faster start of Energy Shield Recharge"]
   },
   "S679": {
     "name": "Attribute",
@@ -6081,8 +6082,8 @@
     ]
   },
   "S686": {
-    "name": "S686",
-    "stats": []
+    "name": "Minion Life",
+    "stats": ["Minions have 10% increased maximum Life"]
   },
   "S687": {
     "name": "S687",
@@ -6109,8 +6110,8 @@
     "stats": []
   },
   "S693": {
-    "name": "S693",
-    "stats": []
+    "name": "Energy Shield Delay",
+    "stats": ["10% faster start of Energy Shield Recharge"]
   },
   "S694": {
     "name": "Attribute",
@@ -6185,8 +6186,8 @@
     "stats": []
   },
   "S710": {
-    "name": "S710",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["+10 to maximum Energy Shield"]
   },
   "S711": {
     "name": "Attribute",
@@ -6453,8 +6454,8 @@
     "stats": []
   },
   "S770": {
-    "name": "S770",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["+10 to maximum Energy Shield"]
   },
   "S771": {
     "name": "S771",
@@ -7561,8 +7562,8 @@
     "stats": []
   },
   "S1017": {
-    "name": "S1017",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1018": {
     "name": "S1018",
@@ -7633,8 +7634,8 @@
     "stats": []
   },
   "S1033": {
-    "name": "S1033",
-    "stats": []
+    "name": "Evasion",
+    "stats": ["+16 to Evasion Rating"]
   },
     "S1034": {
         "name": "Melee Damage",
@@ -7747,8 +7748,8 @@
     "stats": []
   },
   "S1059": {
-    "name": "S1059",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1060": {
     "name": "S1060",
@@ -7865,8 +7866,8 @@
     "stats": []
   },
   "S1086": {
-    "name": "S1086",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1087": {
     "name": "S1087",
@@ -7941,8 +7942,8 @@
     "stats": []
   },
   "S1103": {
-    "name": "S1103",
-    "stats": []
+    "name": "Movement Speed",
+    "stats": ["2% increased Movement Speed"]
   },
     "S1104": {
         "name": "Attribute",
@@ -8080,8 +8081,8 @@
     "stats": []
   },
   "S1131": {
-    "name": "S1131",
-    "stats": []
+    "name": "Immobilise Buildup",
+    "stats": ["8% increased Stun Buildup", "8% increased Freeze Buildup"]
   },
   "S1132": {
     "name": "Attribute",
@@ -8157,8 +8158,8 @@
     ]
   },
   "S1148": {
-    "name": "S1148",
-    "stats": []
+    "name": "Immobilise Buildup",
+    "stats": ["8% increased Stun Buildup", "8% increased Freeze Buildup"]
   },
   "S1149": {
     "name": "Attribute",
