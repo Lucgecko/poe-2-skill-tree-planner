@@ -8195,8 +8195,8 @@
     "stats": []
   },
   "S1156": {
-    "name": "S1156",
-    "stats": []
+    "name": "Armour and Evasion",
+    "stats": ["+10 to Armour", "+8 to Evasion Rating"]
   },
   "S1157": {
     "name": "Projectile Damage",
@@ -8272,8 +8272,8 @@
     "stats": []
   },
   "S1173": {
-    "name": "S1173",
-    "stats": []
+    "name": "Armour and Evasion",
+    "stats": ["12% increased Armour and Evasion Rating"]
   },
   "S1174": {
     "name": "Attribute",
@@ -11902,7 +11902,7 @@
     "stats": []
   },
   "S1935": {
-    "name": "S1935",
-    "stats": []
+    "name": "Sword Damage",
+    "stats": ["10% increased Damage with Swords"]
   }
 }
