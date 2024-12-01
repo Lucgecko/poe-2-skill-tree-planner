@@ -48,6 +48,7 @@ export default function Home() {
     const node = allNodes.get(id);
     if (!node) return;
     
+    console.log(id);
 
     const updatedNode = { ...node, activated: !node.activated };
 
