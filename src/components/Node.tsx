@@ -20,6 +20,7 @@ const Node: React.FC<NodeProps> = ({ node, onActivate, onHover }) => {
   };
 
   return (
+
     <div
       onClick={handleClick}
       onMouseEnter={handleMouseEnter}
@@ -32,22 +33,32 @@ const Node: React.FC<NodeProps> = ({ node, onActivate, onHover }) => {
         width: (node.type == 'small') ? '3px' : '5px',
         height: (node.type == 'small') ? '3px' : '5px',
         borderRadius: '50%',
+
         border: node.highlighted 
         ? "1px solid lightblue" 
         :
         "none",
-        backgroundColor: node.highlighted
-          ? 'rgba(255, 255, 204, 0.8)' // Highlighted node color
-          : node.activated
-          ? 'rgba(180, 255, 204, 0.7)'
-          : node.stats.length == 0
-          ? 'rgba(255, 100, 100, 0.5)'
-          :
-          'rgba(255, 255, 204, 0.3)', // Normal node color
+
+        backgroundColor: node.stats.length === 0
+          ? '#ff6464' 
+          : node.highlighted
+          ? 'white'
+          : node.type == "keystone"
+          ? '#64ff64'
+          : node.type == "notable"
+          ? '#ffff64'
+          : '#ffffff',
+
+        opacity: node.highlighted
+        ? '1'
+        :
+        node.activated 
+        ? '0.75'
+        : '0.35',
         cursor: 'pointer',
         transition: 'background-color 0.3s ease',
       }}
-    />
+    ></div>
   );
 };
 

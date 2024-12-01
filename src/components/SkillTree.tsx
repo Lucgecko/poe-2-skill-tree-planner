@@ -8,9 +8,11 @@ interface SkillTreeProps {
   nodes: Map<string, NodeData>; // Map of nodes instead of an array
   onNodeActivate: (id: string) => void;
   onNodeHover: (id: string | null) => void;
+  hiddenSmalls: boolean;
+  hiddenNoID: boolean;
 }
 
-const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHover }) => {
+const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHover, hiddenSmalls, hiddenNoID }) => {
   const [windowWidth, setWindowWidth] = useState<number>(0);
   const [windowHeight, setWindowHeight] = useState<number>(0);
 
@@ -26,9 +28,10 @@ const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHove
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
       setWindowHeight(window.innerHeight);
-
+      
       const handleResize = () => {
         setWindowWidth(window.innerWidth);
+      
         setWindowHeight(window.innerHeight);
       };
 
@@ -65,8 +68,17 @@ const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHove
           }}
         />
 
-        {Array.from(nodes.values()).map((node) => (
-        <Node key={node.id} node={node} onActivate={onNodeActivate} onHover={onNodeHover}/>
+        {Array.from(nodes.values())
+        .filter(
+          (node) =>
+            !(hiddenSmalls && node.type === 'small') && // Hide small nodes if hiddenSmalls is true
+            !(hiddenNoID && node.stats.length === 0) // Hide nodes with no stats if hiddenNoID is true
+        )
+        .map((node) => (
+        
+          <Node key={node.id} node={node} onActivate={onNodeActivate} onHover={onNodeHover}/>
+        
+        
         ))}
 
       </div>

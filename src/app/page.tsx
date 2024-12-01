@@ -16,6 +16,8 @@ export default function Home() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [hoveredNode, setHoveredNode] = useState<NodeData | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [hideSmallPassives, setHideSmallPassives] = useState<boolean>(false);
+  const [hideNoStatPassives, setHideNoStatPassives] = useState<boolean>(true);
 
   
 
@@ -87,11 +89,12 @@ export default function Home() {
         initialScale={2}
         minScale={0.8}
         maxScale={10}
-        wheel={{ step: 0.1 }}
         centerOnInit={true}
-        doubleClick={{disabled: true}}>
+        doubleClick={{disabled: true}}
+        panning={{velocityDisabled: true}}
+        >
         <TransformComponent>
-          <SkillTree nodes={allNodes} onNodeActivate={onNodeActivate} onNodeHover={onNodeHover}/>
+          <SkillTree nodes={allNodes} onNodeActivate={onNodeActivate} onNodeHover={onNodeHover} hiddenSmalls={hideSmallPassives} hiddenNoID={hideNoStatPassives}/>
         </TransformComponent>
       </TransformWrapper>
       
@@ -177,6 +180,37 @@ export default function Home() {
           }}
         />
       </div>
+
+      <div
+       style={{
+        position: 'absolute',
+        top: '100px', // Adjust the position as necessary
+        left: '5px',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Optional background for visibility
+        color: 'white',
+        padding: '5px',
+        borderRadius: '5px',
+        width: '300px',
+      }}
+      >
+          <label>
+            <input
+              type="checkbox"
+              checked={hideSmallPassives}
+              onChange={(e) => setHideSmallPassives(e.target.checked)}
+            />
+            Hide small passives
+          </label><br></br>
+          <label>
+            <input
+              type="checkbox"
+              checked={hideNoStatPassives}
+              onChange={(e) => setHideNoStatPassives(e.target.checked)}
+            />
+            Hide unidentified passives
+          </label>
+        </div>
+      
 
       <StatList allSkills={allNodes} activeSkills={activeNodes} />
 

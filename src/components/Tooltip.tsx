@@ -12,7 +12,7 @@ const Tooltip: React.FC<TooltipProps> = ({ content, position }) => {
         position: 'absolute',
         left: position.x + 10, // Offset from mouse position to avoid overlap
         top: position.y + 10,  // Offset from mouse position
-        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        backgroundColor: 'rgba(0, 0, 0, 1)',
         color: 'white',
         padding: '8px',
         borderRadius: '5px',

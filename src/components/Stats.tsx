@@ -85,9 +85,10 @@ const StatList: React.FC<StatListProps> = ({ activeSkills, allSkills }) => {
           <div style={{ marginBottom: '20px' }}>
             <h3
               style={{
-                padding: '10px', 
-                fontSize: '16px', 
+                padding: '0px', 
+                fontSize: '22px', 
                 fontWeight: 'bold',
+                marginBottom: '10px',
                 marginTop: '10px', // Keeps a gap between the title and section
               }}
             >
@@ -95,7 +96,7 @@ const StatList: React.FC<StatListProps> = ({ activeSkills, allSkills }) => {
             </h3>
             {keystoneStats.map((node) => (
               <div key={node.id} style={{ marginBottom: '15px' }}>
-                <strong style={{ fontSize: '16px' }}>{node.name}</strong>
+                <strong style={{ fontSize: '18px', color: "#64ff64" }}>{node.name}</strong>
                 <ul>
                   {node.stats.map((stat, index) => (
                     <li key={index}>{stat}</li>
@@ -103,23 +104,25 @@ const StatList: React.FC<StatListProps> = ({ activeSkills, allSkills }) => {
                 </ul>
               </div>
             ))}
+            <hr></hr>
           </div>
-
+          
           {/* Notable Stats */}
-          <div style={{ marginBottom: '20px' }}>
+          <div style={{ marginBottom: '20px'}}>
             <h3
               style={{
-                padding: '10px', 
-                fontSize: '16px', 
+                padding: '0px', 
+                fontSize: '22px', 
                 fontWeight: 'bold',
                 marginTop: '20px',
+                marginBottom: '10px'
               }}
             >
               Notables
             </h3>
             {notableStats.map((node) => (
-              <div key={node.id} style={{ marginBottom: '10px' }}>
-                <strong style={{ fontSize: '16px' }}>{node.name}</strong>
+              <div key={node.id} style={{ marginBottom: '15px' }}>
+                <strong style={{ fontSize: '18px', color: '#ffcc00' }}>{node.name}</strong>
                 <ul>
                   {node.stats.map((stat, index) => (
                     <li key={index}>{stat}</li>
@@ -127,23 +130,25 @@ const StatList: React.FC<StatListProps> = ({ activeSkills, allSkills }) => {
                 </ul>
               </div>
             ))}
+            <hr></hr>
           </div>
 
           {/* Small Stats */}
           <div>
             <h3
               style={{
-                padding: '10px', 
-                fontSize: '16px', 
+                padding: '0px', 
+                fontSize: '22px', 
                 fontWeight: 'bold',
+                marginBottom: '10px',
                 marginTop: '20px',
               }}
             >
               Smalls
             </h3>
             {smallStats.map((node) => (
-              <div key={node.id} style={{ marginBottom: '15px' }}>
-                <strong style={{ fontSize: '18px', color: '#ffcc00' }}>
+              <div key={node.id} style={{ marginBottom: '10px' }}>
+                <strong style={{ fontSize: '16px' }}>
                   {node.name}
                 </strong>
                 <ul>
