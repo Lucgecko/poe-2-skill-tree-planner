@@ -965,8 +965,8 @@
     "stats": []
   },
   "N173": {
-    "name": "N173",
-    "stats": []
+    "name": "Entropy",
+    "stats": ["18% increased Chaos Damage", "15% increased Skill Effect Duration"]
   },
   "N174": {
     "name": "Dampening Shield",
@@ -1181,8 +1181,8 @@
     "stats": []
   },
   "N216": {
-    "name": "N216",
-    "stats": []
+    "name": "Resonating Impact",
+    "stats": ["15% increased Area of Effect for Staff Attacks"]
   },
   "N217": {
     "name": "Finesse",
@@ -1196,8 +1196,8 @@
     "stats": []
   },
   "N219": {
-    "name": "N219",
-    "stats": []
+    "name": "First Strike",
+    "stats": ["50% increased Damage with Dagger against Enemies that are on Full Life"]
   },
   "N220": {
     "name": "N220",
@@ -1246,16 +1246,16 @@
     "stats": []
   },
   "N229": {
-    "name": "N229",
-    "stats": []
+    "name": "Life from Death",
+    "stats": ["Recover 3% of Life on Kill"]
   },
   "N230": {
     "name": "N230",
     "stats": []
   },
   "N231": {
-    "name": "N231",
-    "stats": []
+    "name": "Unbroken Concentration",
+    "stats": ["40% increased Stun Threshold if you haven't been Stunned Recently"]
   },
   "N232": {
     "name": "Immaterial",
@@ -1367,8 +1367,8 @@
     "stats": []
   },
   "N253": {
-    "name": "N253",
-    "stats": []
+    "name": "Step Like Mist",
+    "stats": ["4% increased Movement Speed", "14% increased Evasion Rating", "14% increased maximum Energy Shield", "+5 to Dexterity and Intelligence"]
   },
   "N254": {
     "name": "Lust for Power",
@@ -3123,20 +3123,20 @@
     "stats": []
   },
   "S1": {
-    "name": "S1",
-    "stats": []
+    "name": "Lightning Damage",
+    "stats": ["12% increased Lightning Damage"]
   },
   "S2": {
-    "name": "S2",
-    "stats": []
+    "name": "Lightning Damage",
+    "stats": ["12% increased Lightning Damage"]
   },
   "S3": {
     "name": "S3",
     "stats": []
   },
   "S4": {
-    "name": "S4",
-    "stats": []
+    "name": "Lightning Damage",
+    "stats": ["12% increased Lightning Damage"]
   },
   "S5": {
     "name": "S5",
@@ -3179,16 +3179,16 @@
     "stats": []
   },
   "S15": {
-    "name": "S15",
-    "stats": []
+    "name": "Ignite Effect",
+    "stats": ["10% increased Effect of Ignite"]
   },
   "S16": {
     "name": "S16",
     "stats": []
   },
   "S17": {
-    "name": "S17",
-    "stats": []
+    "name": "Lightning Damage",
+    "stats": ["12% increased Lightning Damage"]
   },
   "S18": {
     "name": "S18",
@@ -3219,8 +3219,8 @@
     "stats": []
   },
   "S25": {
-    "name": "S25",
-    "stats": []
+    "name": "Ignite Effect",
+    "stats": ["10% increased Effect of Ignite"]
   },
   "S26": {
     "name": "S26",
@@ -3235,8 +3235,8 @@
     "stats": []
   },
   "S29": {
-    "name": "S29",
-    "stats": []
+    "name": "Ignite Effect",
+    "stats": ["10% increased Effect of Ignite"]
   },
   "S30": {
     "name": "S30",
@@ -3255,20 +3255,20 @@
     "stats": []
   },
   "S34": {
-    "name": "S34",
-    "stats": []
+    "name": "Lightning Damage",
+    "stats": ["12% increased Lightning Damage"]
   },
   "S35": {
     "name": "S35",
     "stats": []
   },
   "S36": {
-    "name": "S36",
-    "stats": []
+    "name": "Ignite Chance",
+    "stats": ["20% increased chance to Ignite"]
   },
   "S37": {
-    "name": "S37",
-    "stats": []
+    "name": "Fire Damage",
+    "stats": ["12% increased Fire Damage"]
   },
   "S38": {
     "name": "S38",
@@ -3593,8 +3593,8 @@
     "stats": []
   },
   "S114": {
-    "name": "S114",
-    "stats": []
+    "name": "Curse Effect",
+    "stats": ["6% increased Effect of your Curses"]
   },
   "S115": {
     "name": "S115",
@@ -5302,8 +5302,8 @@
     "stats": []
   },
   "S510": {
-    "name": "S510",
-    "stats": []
+    "name": "Spell and Minion Damage",
+    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
   },
   "S511": {
     "name": "S511",
@@ -6299,8 +6299,8 @@
     "stats": []
   },
   "S735": {
-    "name": "S735",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": ["3% increased Attack and Cast Speed"]
   },
   "S736": {
     "name": "Ignite Effect on You",
@@ -6339,8 +6339,8 @@
     "stats": []
   },
   "S744": {
-    "name": "S744",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": ["3% increased Attack and Cast Speed"]
   },
   "S745": {
     "name": "S745",
@@ -6567,8 +6567,8 @@
     "stats": []
   },
   "S796": {
-    "name": "S796",
-    "stats": []
+    "name": "Life on Kill",
+    "stats": ["Gain 3 Life per Enemy Killed"]
   },
   "S797": {
     "name": "S797",
@@ -6617,8 +6617,8 @@
     "stats": []
   },
   "S808": {
-    "name": "S808",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": ["10% increased Attack Damage"]
   },
   "S809": {
     "name": "S809",
@@ -6649,8 +6649,8 @@
     "stats": []
   },
   "S816": {
-    "name": "S816",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": ["10% increased Attack Damage"]
   },
   "S817": {
     "name": "S817",
@@ -6717,8 +6717,8 @@
     "stats": []
   },
   "S831": {
-    "name": "S831",
-    "stats": []
+    "name": "Skill Speed",
+    "stats": ["3% increased Attack and Cast Speed"]
   },
   "S832": {
     "name": "S832",
@@ -6775,8 +6775,8 @@
     "stats": []
   },
   "S845": {
-    "name": "S845",
-    "stats": []
+    "name": "Skill Speed",
+    "stats": ["3% increased Attack and Cast Speed"]
   },
   "S846": {
     "name": "S846",
@@ -6887,8 +6887,8 @@
     "stats": []
   },
   "S871": {
-    "name": "S871",
-    "stats": []
+    "name": "Evasion and Energy Shield",
+    "stats": ["+8 to Evasion Rating", "+5 to maximum Energy Shield"]
   },
   "S872": {
     "name": "S872",
@@ -7305,8 +7305,8 @@
     "stats": []
   },
   "S959": {
-    "name": "S959",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": ["10% increased Attack Damage"]
   },
   "S960": {
     "name": "S960",
@@ -9289,12 +9289,12 @@
     ]
   },
   "S1380": {
-    "name": "S1380",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"]
   },
   "S1381": {
-    "name": "S1381",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"]
   },
   "S1382": {
     "name": "Mace Stun Buildup",
@@ -9402,8 +9402,8 @@
     ]
   },
   "S1402": {
-    "name": "S1402",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
   },
   "S1403": {
     "name": "Shield Defences",
@@ -9516,8 +9516,8 @@
     "stats": []
   },
   "S1425": {
-    "name": "S1425",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["Projectiles deal 12% increased Damage with Hits against Enemies within 2m"]
   },
   "S1426": {
     "name": "Armour",
