@@ -6007,8 +6007,8 @@
     "stats": []
   },
   "S670": {
-    "name": "S670",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S671": {
     "name": "S671",
@@ -6119,12 +6119,12 @@
     ]
   },
   "S695": {
-    "name": "S695",
-    "stats": []
+    "name": "Quarterstaff Damage",
+    "stats": ["8% increased Damage with Staves"]
   },
   "S696": {
-    "name": "S696",
-    "stats": []
+    "name": "Accuracy",
+    "stats": ["+25 to Accuracy Rating"]
   },
   "S697": {
     "name": "S697",
@@ -6145,8 +6145,8 @@
     ]
   },
   "S701": {
-    "name": "S701",
-    "stats": []
+    "name": "Accuracy",
+    "stats": ["+40 to Accuracy Rating"]
   },
   "S702": {
     "name": "S702",
@@ -6205,8 +6205,8 @@
     ]
   },
   "S714": {
-    "name": "S714",
-    "stats": []
+    "name": "Dagger Speed",
+    "stats": ["3% increased Attack Speed with Daggers"]
   },
   "S715": {
     "name": "Attribute",
@@ -6269,8 +6269,8 @@
     ]
   },
   "S728": {
-    "name": "S728",
-    "stats": []
+    "name": "Quarterstaff Damage",
+    "stats": ["8% increased Damage with Staves"]
   },
   "S729": {
     "name": "S729",
@@ -6309,8 +6309,8 @@
     ]
   },
   "S737": {
-    "name": "S737",
-    "stats": []
+    "name": "Dagger Speed",
+    "stats": ["3% increased Attack Speed with Daggers"]
   },
   "S738": {
     "name": "S738",
@@ -6347,8 +6347,8 @@
     "stats": []
   },
   "S746": {
-    "name": "S746",
-    "stats": []
+    "name": "Life on Kill",
+    "stats": ["Gain 3 Life per Enemy Killed"]
   },
   "S747": {
     "name": "S747",
@@ -6431,8 +6431,8 @@
     "stats": []
   },
   "S765": {
-    "name": "S765",
-    "stats": []
+    "name": "Stun Threshold while on Full Life",
+    "stats": ["15% increased Stun Threshold if you haven't been Stunned Recently"]
   },
   "S766": {
     "name": "Ignite Chance",
@@ -6509,8 +6509,8 @@
     "stats": []
   },
   "S783": {
-    "name": "S783",
-    "stats": []
+    "name": "Stun Threshold while on Full Life",
+    "stats": ["15% increased Stun Threshold if you haven't been Stunned Recently"]
   },
   "S784": {
     "name": "S784",
@@ -6693,8 +6693,8 @@
     "stats": []
   },
   "S826": {
-    "name": "S826",
-    "stats": []
+    "name": "Power Charge Duration",
+    "stats": ["10% increased Power Charge Duration"]
   },
   "S827": {
     "name": "Attribute",
@@ -6779,8 +6779,8 @@
     "stats": ["3% increased Attack and Cast Speed"]
   },
   "S846": {
-    "name": "S846",
-    "stats": []
+    "name": "Power Charge Duration",
+    "stats": ["10% increased Power Charge Duration"]
   },
   "S847": {
     "name": "S847",
@@ -7963,8 +7963,8 @@
         ]
     },
   "S1107": {
-    "name": "S1107",
-    "stats": []
+    "name": "Stun Threshold",
+    "stats": ["10% increased Stun Threshold"]
   },
   "S1108": {
     "name": "Attribute",
