@@ -2547,6 +2547,7 @@
   "N472": {
     "name": "Cluster Bombs",
     "stats": [
+      "50% increased Grenade Duration",
       "Grenade Skills Fire an additional Projectile"
     ]
   },
@@ -2640,8 +2641,8 @@
     "stats": []
   },
   "N491": {
-    "name": "N491",
-    "stats": []
+    "name": "Hale Heart",
+    "stats": ["15% increased Life Recovery rate"]
   },
   "N492": {
     "name": "Enraged Reaver",
@@ -2799,7 +2800,7 @@
   "N522": {
     "name": "Perfect Opportunity",
     "stats": [
-      "25% increased Stun Buildup",
+      "30% increased Stun Buildup",
       "Damage with Hits is Lucky against Heavy Stunned Enemies"
     ]
   },
@@ -3008,7 +3009,7 @@
   "N561": {
     "name": "Repeating Explosives",
     "stats": [
-      "Grenades have 20% change to activate a second time"
+      "Grenades have 15% change to activate a second time"
     ]
   },
   "N562": {
@@ -10511,8 +10512,8 @@
     "stats": []
   },
   "S1642": {
-    "name": "S1642",
-    "stats": []
+    "name": "Life Regeneration",
+    "stats": ["Regenerate 0.4% of Life per second"]
   },
   "S1643": {
     "name": "Armour and Evasion",
