@@ -7521,8 +7521,8 @@
     "stats": []
   },
   "S1007": {
-    "name": "S1007",
-    "stats": []
+    "name": "Meelee Damage",
+    "stats": ["10% increased Melee Damage"]
   },
   "S1008": {
     "name": "S1008",
