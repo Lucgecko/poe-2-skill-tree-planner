@@ -481,8 +481,8 @@
     "stats": []
   },
   "N68": {
-    "name": "N68",
-    "stats": []
+    "name": "Sudden Escalation",
+    "stats": ["16% increased Critical Hit Chance for Spells", "8% increased Cast Speed if you've dealt a Critical Hit Recently"]
   },
   "N69": {
     "name": "N69",
@@ -7831,8 +7831,8 @@
     "stats": []
   },
   "S1078": {
-    "name": "S1078",
-    "stats": []
+    "name": "Life Regeneration",
+    "stats": ["Regenerate 0.4% of Life per second"]
   },
   "S1079": {
     "name": "Attack Area",
@@ -8199,8 +8199,8 @@
     "stats": []
   },
   "S1157": {
-    "name": "S1157",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1158": {
     "name": "S1158",
@@ -8264,8 +8264,8 @@
     "stats": []
   },
   "S1171": {
-    "name": "S1171",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1172": {
     "name": "S1172",
@@ -8378,12 +8378,12 @@
         ]
     },
   "S1193": {
-    "name": "S1193",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1194": {
-    "name": "S1194",
-    "stats": []
+    "name": "Armour and Evasion",
+    "stats": ["12% increased Armour and Evasion Rating"]
   },
   "S1195": {
     "name": "S1195",
@@ -8569,8 +8569,10 @@
     ]
   },
   "S1235": {
-    "name": "S1235",
-    "stats": []
+    "name": "Armour and Evasion",
+    "stats": [
+      "12% increased Armour and Evasion Rating"
+    ]
   },
   "S1236": {
     "name": "S1236",
