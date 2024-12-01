@@ -1,11 +1,13 @@
+import { NodeData } from '@/types';
 import React from 'react';
 
 interface TooltipProps {
-  content: React.ReactNode;
+
+  node: NodeData;
   position: { x: number; y: number }; // The position of the mouse
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ content, position }) => {
+const Tooltip: React.FC<TooltipProps> = ({ node, position }) => {
   return (
     <div
     style={{
@@ -23,7 +25,14 @@ const Tooltip: React.FC<TooltipProps> = ({ content, position }) => {
         pointerEvents: 'none', // Prevent tooltip from blocking mouse events
       }}
     >
-      {content}
+    <div>
+          <strong>{node.name}</strong>
+          <ul>
+            {node.stats.map((stat, index) => (
+              <li key={index}>{stat}</li>
+            ))}
+          </ul>
+        </div>
     </div>
   );
 };

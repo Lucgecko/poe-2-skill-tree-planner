@@ -105,17 +105,7 @@ export default function Home() {
         </TransformComponent>
       </TransformWrapper>
       
-      {hoveredNode && (
-      <Tooltip content={
-        <div>
-          <strong>{hoveredNode.name}</strong>
-          <ul>
-            {hoveredNode.stats.map((stat, index) => (
-              <li key={index}>{stat}</li>
-            ))}
-          </ul>
-        </div>
-      } position={mousePosition} />)}
+      {hoveredNode && (<Tooltip node={hoveredNode} position={mousePosition} />)}
 
         <div
         style={{
