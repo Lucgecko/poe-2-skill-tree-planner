@@ -17,7 +17,7 @@ export default function Home() {
   const [hoveredNode, setHoveredNode] = useState<NodeData | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [hideSmallPassives, setHideSmallPassives] = useState<boolean>(false);
-  const [hideNoStatPassives, setHideNoStatPassives] = useState<boolean>(true);
+  const [hideNoStatPassives, setHideNoStatPassives] = useState<boolean>(false);
 
   
 
