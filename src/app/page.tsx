@@ -47,17 +47,23 @@ export default function Home() {
   const onNodeActivate = (id: string) => {
     const node = allNodes.get(id);
     if (!node) return;
-    
-    console.log(id);
-
-    const updatedNode = { ...node, activated: !node.activated };
-
-    if(updatedNode.activated){
-      activeNodes.add(id);
-    } else {
-      activeNodes.delete(id);
-    }
   
+    console.log(id);
+  
+    const updatedNode = { ...node, activated: !node.activated };
+  
+    // Update activeNodes properly
+    setActiveNodes((prevActiveNodes) => {
+      const updatedActiveNodes = new Set(prevActiveNodes);
+      if (updatedNode.activated) {
+        updatedActiveNodes.add(id);
+      } else {
+        updatedActiveNodes.delete(id);
+      }
+      return updatedActiveNodes;
+    });
+  
+    // Update allNodes
     setAllNodes((prevNodes) => {
       const updatedNodes = new Map(prevNodes);
       updatedNodes.set(id, updatedNode);

@@ -35,14 +35,14 @@ const Node: React.FC<NodeProps> = ({ node, onActivate, onHover }) => {
         borderRadius: '50%',
 
         border: node.highlighted 
-        ? "1px solid lightblue" 
+        ? "1px solid red" 
         :
         "none",
 
         backgroundColor: node.stats.length === 0
           ? '#ff6464' 
           : node.highlighted
-          ? 'white'
+          ? '#ffffff00'
           : node.type == "keystone"
           ? '#64ff64'
           : node.type == "notable"
@@ -50,7 +50,7 @@ const Node: React.FC<NodeProps> = ({ node, onActivate, onHover }) => {
           : '#ffffff',
 
         opacity: node.highlighted
-        ? '1'
+        ? '0.9'
         :
         node.activated 
         ? '0.75'
