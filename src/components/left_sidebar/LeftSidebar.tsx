@@ -165,9 +165,15 @@ interface LeftSidebarProps {
 
           <Saves/>
 
-          <a href="https://github.com/andrej2431/poe-2-skill-tree-planner"  target="_blank" className="text-blue-500 hover:text-blue-700 font-semibold">
+          <a href="https://github.com/andrej2431/poe-2-skill-tree-planner"  target="_blank" className="text-blue-500 hover:text-blue-700 font-semibold text-l">
           Contribute Here
         </a>
+        <br/>
+        <div className="mt-2">
+        <a href="https://www.paypal.me/andrewis2431" target="_blank" className="text-blue-800 hover:text-blue-900 font-semibold text-xs">
+          Donate if you want
+        </a>
+        </div>
         </div>
       </div>
     );

@@ -8,9 +8,6 @@ interface StatListProps {
 
 const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm}) => { 
   const stats = filteredNodeData.map((node) => node.stats).flat().filter((stat) => {
-    if(!stat.toLowerCase().includes(filterTerm.toLowerCase())) {
-      console.log(stat)
-    }
     return stat.toLowerCase().includes(filterTerm.toLowerCase())
     
   });
