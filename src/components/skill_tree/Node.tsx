@@ -59,12 +59,14 @@ const Node: React.FC<NodeProps> = ({ node }) => {
           rounded-full
           
           ${isHighlighted ? 'border border-red-500' : ""} 
-          ${isHighlighted ? 'opacity-90' : isSelected ? 'opacity-75' : 'opacity-35'}
+          ${isHighlighted ? 'opacity-90' : isSelected ? 'opacity-100' : 'opacity-35'}
           ${node.type === 'small' ? 'w-[3px] h-[3px]' : 'w-[5px] h-[5px]'}
-          ${node.stats.length === 0 ? 'bg-red-400' :
+          ${isSelected ? "bg-blue-500" :
+            node.stats.length === 0 ? 'bg-red-400' :
             isHighlighted && !isSelected ? 'bg-transparent' :
             node.type === 'keystone' ? 'bg-green-400' :
             node.type === 'notable' ? 'bg-yellow-400' : 'bg-white'}
+
         `}
         style={{
           left: `${node.x * 100}%`,
