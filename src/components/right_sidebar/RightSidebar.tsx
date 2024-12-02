@@ -67,7 +67,7 @@ interface RightSidebarProps { }
                   </div>
 
                   {isMerged ? (
-                    <MergedStatList filteredNodeData={filteredNodeData} />
+                    <MergedStatList filteredNodeData={filteredNodeData} filterTerm={filterTerm}/>
                   ) : (
                     <StatList filteredNodeData={filteredNodeData} />
                   )}

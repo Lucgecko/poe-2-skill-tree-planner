@@ -1,5 +1,6 @@
 # Basics
-Runs on nextjs
+Runs on nextjs  
+AAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHH i love manually typing every small node
 
 # If you want to help
 either do pull request to add more nodes (would love help with the small ones)  
