@@ -7,7 +7,13 @@ interface StatListProps {
 }
 
 const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm}) => { 
-  const stats = filteredNodeData.map((node) => node.stats).flat().filter((stat) => {return stat.toLowerCase().includes(filterTerm.toLowerCase())});
+  const stats = filteredNodeData.map((node) => node.stats).flat().filter((stat) => {
+    if(!stat.toLowerCase().includes(filterTerm.toLowerCase())) {
+      console.log(stat)
+    }
+    return stat.toLowerCase().includes(filterTerm.toLowerCase())
+    
+  });
   
 
   const statMap: Record<string, number> = {};
@@ -19,7 +25,6 @@ const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm})
 
     let cumulativeValue = 0;
     let statKey = stat;
-    console.log(statKey);
     // Initialize the cumulative value for this stat
     if (matches.length > 0) {
       const value = matches[0][1]; // First match
