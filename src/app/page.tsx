@@ -1,15 +1,17 @@
 "use client"
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import LeftSidebar from '../components/left_sidebar/LeftSidebar';
 import RightSidebar from '../components/right_sidebar/RightSidebar';
 import SkillTree from '../components/skill_tree/SkillTree';
 import Tooltip from '../components/Tooltip';
 
 import { useNodes } from "../contexts/NodesContext";
+import { ReactZoomPanPinchContentRef } from 'react-zoom-pan-pinch';
 
 export default function Home() {
   const { hoveredNode } = useNodes();
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const transformWrapperRef = useRef<ReactZoomPanPinchContentRef>(null);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     setMousePosition({ x: event.clientX, y: event.clientY });
@@ -33,9 +35,9 @@ export default function Home() {
 
   return (
     <div onMouseMove={handleMouseMove} >
-      <LeftSidebar/>
+      <LeftSidebar wrapperRef={transformWrapperRef}/>
       <RightSidebar />
-      <SkillTree />
+      <SkillTree wrapperRef={transformWrapperRef} />
       <Tooltip nodeId={hoveredNode} position={mousePosition} />
 
       {isVisible && (

@@ -12,6 +12,7 @@ const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm})
     
   });
   
+  // am too lazy, mostly chatgpt generated
 
   const statMap: Record<string, number> = {};
   

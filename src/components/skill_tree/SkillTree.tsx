@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { LegacyRef, Ref, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Node from './Node';
 import { NodeData } from '../../types';
 import { useNodes } from '@/contexts/NodesContext';
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchContentRef } from 'react-zoom-pan-pinch';
 
-interface SkillTreeProps {}
+interface SkillTreeProps {
+  wrapperRef: Ref<ReactZoomPanPinchContentRef> | null;
+}
 
-const SkillTree: React.FC<SkillTreeProps> = () => {
+const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
   const { displayedNodes, allNodes} = useNodes();
 
   const [windowWidth, setWindowWidth] = useState<number>(0);
@@ -52,6 +54,7 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
       }}>
 
     <TransformWrapper
+    ref={wrapperRef}
     initialScale={2}
     minScale={0.8}
     maxScale={10}
@@ -60,6 +63,7 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
     panning={{velocityDisabled: true}}
     >
       <TransformComponent>
+
       <div
       style={{
         position: 'relative',

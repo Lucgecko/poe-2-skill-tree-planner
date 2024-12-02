@@ -1,5 +1,5 @@
 # Basics
-Runs on nextjs  
+Runs on nextjs, im shit at it so excuse bad code (meaningful commit messages are for pussies)  
 AAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHH i love manually typing every small node
 
 # If you want to help
@@ -9,8 +9,8 @@ Or if you don't know how to do that stuff you can also create an issue by going 
 I will look into it if I have the time.
 
 # Data source
-Like 95% of Notables/Keystones I took from this nice project https://marcoaaguiar.github.io/poe2-tree/ .
-I created my own project because i wanted to add more features on my own and I don't know svelte.  
+Like 95% of Notables/Keystones I took from this nice project https://marcoaaguiar.github.io/poe2-tree/ .  
+I created my own project because i wanted to add more features on my own + don't know svelte at all + wan't to have control over development speed (I don't sleep) + L + ratio.  
 Most small passives I've found by slowly going over every video with skill tree that I could find.  
-Some small nodes might be from the older playtest (8 months old i think, maybe 1/3rd of the bottom left small nodes in the map)), but newer videos have priority
+Some small nodes might be from the older playtest (8 months old i think, maybe 1/3rd of the bottom left small nodes in the map), but newer videos have priority
 

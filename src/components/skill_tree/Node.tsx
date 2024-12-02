@@ -47,6 +47,7 @@ const Node: React.FC<NodeProps> = ({ node }) => {
   return (
 
       <div
+        id={`passive-${node.id}`}
         onClick={handleClick}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

@@ -1,15 +1,17 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { Ref, RefObject, useEffect, useState } from "react";
 import { useNodes } from "../../contexts/NodesContext";
 import Saves from "./Saves";
+import { ReactZoomPanPinchContentRef } from "react-zoom-pan-pinch";
 
 
 interface LeftSidebarProps {
+  wrapperRef: RefObject<ReactZoomPanPinchContentRef>;
   }
   
-  export default function LeftSidebar({ }: LeftSidebarProps) {
-    const { selectedNodes, setSelectedNodes, allNodes, setDisplayedNodes, setHighlightedNodes } = useNodes();
+  export default function LeftSidebar({wrapperRef }: LeftSidebarProps) {
+    const { selectedNodes, setSelectedNodes, allNodes, setDisplayedNodes, setHighlightedNodes, highlightedNodes } = useNodes();
   
     // Local states for the sidebar filters and search query
     const [searchQuery, setSearchQuery] = useState<string>("");
@@ -17,10 +19,13 @@ interface LeftSidebarProps {
     const [hideNoStatPassives, setHideNoStatPassives] = useState<boolean>(false);
     const [hideNoSelectPassives, setHideNoSelectPassives] = useState<boolean>(false);
     const [hideAttrPassives, setHideAttrPassives] = useState<boolean>(false);
+    const [hIndex, setHIndex] = useState<number>(0);
 
 
     const onSearchChange = (query: string) => {
       setSearchQuery(query.toLowerCase());
+      setHIndex(0);
+
     };
   
     const onHideSmallChange = (checked: boolean) => {
@@ -93,6 +98,17 @@ interface LeftSidebarProps {
     }, [allNodes, hideSmallPassives, hideNoStatPassives, hideNoSelectPassives,hideAttrPassives, searchQuery, setDisplayedNodes, setHighlightedNodes]);
   
 
+
+    const onEnter = () => {
+      const nodeId = Array.from(highlightedNodes)[hIndex];
+      const node = allNodes.get(nodeId);
+      if (node) {
+        console.log("trying to zoom");
+        wrapperRef?.current?.zoomToElement(`passive-${node.id}`);
+      }
+      setHIndex((hIndex+1) % highlightedNodes.size);
+    };
+
     return (
       <div className="absolute top-2 left-2 p-4 space-y-4 z-20 bg-gray-800  select-none rounded-xl">
         <div className="w-52">
@@ -102,6 +118,11 @@ interface LeftSidebarProps {
               placeholder="Search nodes"
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter") {
+                  onEnter();
+                }
+              }}
               className="w-full p-2 border rounded-md border-gray-300 bg-gray-700 bg-opacity-80"
             />
           </div>
@@ -171,7 +192,7 @@ interface LeftSidebarProps {
         <br/>
         <div className="mt-2">
         <a href="https://www.paypal.me/andrewis2431" target="_blank" className="text-blue-800 hover:text-blue-900 font-semibold text-xs">
-          Donate if you want
+          Donate here if you want
         </a>
         </div>
         </div>

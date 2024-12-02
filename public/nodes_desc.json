@@ -2025,7 +2025,7 @@
   },
   "N374": {
 		"name": "Mass Hysteria",
-		"stats": ["Allies in your Presence have 6% increased Attack Speed"]
+		"stats": ["6% increased Attack Speed","Allies in your Presence have 6% increased Attack Speed"]
   },
   "N375": {
     "name": "Unforgiving",
@@ -8525,8 +8525,8 @@
     "stats": []
   },
   "S1222": {
-    "name": "S1222",
-    "stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
   },
   "S1223": {
     "name": "S1223",
@@ -8716,12 +8716,12 @@
     ]
   },
   "S1260": {
-    "name": "S1260",
-    "stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
   },
   "S1261": {
-    "name": "S1261",
-    "stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
   },
     "S1262": {
         "name": "Ignite Effect",
@@ -8770,8 +8770,8 @@
     "stats": []
   },
   "S1272": {
-    "name": "S1272",
-    "stats": []
+		"name": "Melee Damage",
+		"stats": ["8% increased Melee Damage"]
   },
   "S1273": {
     "name": "Attribute",
@@ -8816,8 +8816,8 @@
 		"stats": ["10% increased Projectile Damage"]
   },
   "S1281": {
-    "name": "S1281",
-    "stats": []
+		"name": "Attack Speed",
+		"stats": ["3% increased Attack Speed"]
   },
     "S1282": {
         "name": "Attack Area",
@@ -8874,8 +8874,8 @@
     "stats": []
   },
   "S1293": {
-    "name": "S1293",
-    "stats": []
+		"name": "Melee Damage",
+		"stats": ["10% increased Melee Damage"]
   },
   "S1294": {
     "name": "S1294",
@@ -10755,8 +10755,8 @@
     "stats": []
   },
   "S1692": {
-    "name": "S1692",
-    "stats": []
+		"name": "Ailment Threshold",
+		"stats": ["15% increased Elemental Ailment Threshold"]
   },
   "S1693": {
     "name": "S1693",
@@ -10833,8 +10833,8 @@
     "stats": []
   },
   "S1709": {
-    "name": "S1709",
-    "stats": []
+		"name": "Mercenaries",
+		"stats": ["Minions deal 10% increased Damage"]
   },
   "S1710": {
     "name": "S1710",
@@ -11089,8 +11089,8 @@
     ]
   },
   "S1762": {
-    "name": "S1762",
-    "stats": []
+		"name": "Armour and Evasion",
+		"stats": ["12% increased Armour and Evasion"]
   },
   "S1763": {
     "name": "S1763",
