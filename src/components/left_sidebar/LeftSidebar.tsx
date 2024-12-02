@@ -110,7 +110,7 @@ interface LeftSidebarProps {
     };
 
     return (
-      <div className="absolute top-2 left-2 p-4 space-y-4 z-20 bg-gray-800  select-none rounded-xl">
+      <div className="absolute top-2 left-2 p-4 space-y-4 z-20 bg-gray-800  select-none rounded-xl text-white">
         <div className="w-52">
           <div>
             <input
@@ -191,8 +191,8 @@ interface LeftSidebarProps {
         </a>
         <br/>
         <div className="mt-2">
-        <a href="https://www.paypal.me/andrewis2431" target="_blank" className="text-blue-800 hover:text-blue-900 font-semibold text-xs">
-          Donate here if you want
+        <a href="https://www.paypal.me/andrewis2431" target="_blank" className="text-blue-800 hover:text-blue-900 font-semibold text-[10px]">
+          Donate
         </a>
         </div>
         </div>

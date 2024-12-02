@@ -34,7 +34,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div onMouseMove={handleMouseMove} >
+    <div onMouseMove={handleMouseMove} className='bg-gray-900'>
       <LeftSidebar wrapperRef={transformWrapperRef}/>
       <RightSidebar />
       <SkillTree wrapperRef={transformWrapperRef} />
