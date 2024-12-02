@@ -34,7 +34,7 @@ interface RightSidebarProps { }
         <div className="flex items-center justify-end h-full">
           <div         
           onClick={() => setIsOpen(!isOpen)}    
-           className="w-cursor-pointer w-fit p-2 text-center font-bold text-lg bg-gray-800 rounded-l-md mb-2 flex items-center justify-between sticky top-0 z-10 cursor-pointer select-none">
+           className="w-cursor-pointer w-fit p-2 text-center font-bold text-lg bg-blue-500 rounded-l-md mb-2 flex items-center justify-between sticky top-0 z-10 cursor-pointer select-none">
               <span
                 className={`ml-2 mr-2 mt-40 mb-40 z-20 `}
                 style={{ transformOrigin: 'center left' }}>
