@@ -25,7 +25,6 @@ const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm})
       const value = matches[0][1]; // First match
       const numericValue =  parseFloat(value) // Percentage value; // Regular integer value
       cumulativeValue += numericValue; // Add value to cumulative sum
-      console.log(value);
       statKey = stat.replace(value, '*').trim();
     }
 
