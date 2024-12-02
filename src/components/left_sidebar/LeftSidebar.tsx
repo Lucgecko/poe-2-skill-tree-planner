@@ -57,7 +57,7 @@ interface LeftSidebarProps {
           if (hideSmallPassives && node.type === "small") return false;
   
           // Hide nodes with no stats if selected
-          if (hideNoStatPassives && node.stats.length === 0) return false;
+          if (hideNoStatPassives && node.stats.length === 0 && !selectedNodes.has(node.id)) return false;
 
           if (hideNoSelectPassives && !selectedNodes.has(node.id)) return false;
 
