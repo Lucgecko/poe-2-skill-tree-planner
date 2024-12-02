@@ -45,7 +45,7 @@ export default function Home() {
           className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white p-4 rounded-md shadow-lg z-50 hidden"
         >
           <div className="flex justify-between items-center ">
-            <span>Also you can click the arrow on right for list of selected passives, filter them and click merge to turn +5 attr , +5 attr into +10 attr</span>
+            <span>!!!!! use then button on the right side of screen when you have selected some nodes</span>
             <button
               onClick={closeMessage}
               className="text-white font-bold ml-4"
