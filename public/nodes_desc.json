@@ -1718,8 +1718,8 @@
     ]
   },
   "N320": {
-    "name": "N320",
-    "stats": []
+    "name": "Retaliation",
+    "stats": ["64% of Damage taken reflected to Melee Attackers"]
   },
   "N321": {
     "name": "Flip the Script",
@@ -2504,8 +2504,8 @@
     "stats": []
   },
   "N463": {
-    "name": "N463",
-    "stats": []
+    "name": "Vengeance",
+    "stats": ["60% of Damage taken reflected to Melee Attackers"]
   },
   "N464": {
     "name": "N464",
