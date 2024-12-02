@@ -41,6 +41,6 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
     });
   });
 
-  console.log(combinedNodes.size);
+  
   return combinedNodes;
 }

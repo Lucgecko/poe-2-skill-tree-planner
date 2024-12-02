@@ -1,15 +1,20 @@
-import { NodeData } from '@/types';
+import { useNodes } from "../contexts/NodesContext";
 import React from 'react';
 
 interface TooltipProps {
 
-  node: NodeData;
+  nodeId: string;
   position: { x: number; y: number }; // The position of the mouse
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ node, position }) => {
+const Tooltip: React.FC<TooltipProps> = ({ nodeId, position }) => {
+  const { allNodes } = useNodes(); // Access allNodes from context
+  const node = allNodes.get(nodeId);
+
+  if (!node) return null;
+
   return (
-    <div
+    <div className="select-none"
     style={{
         position: 'absolute',
         left: position.x + 10, // Offset from mouse position to avoid overlap

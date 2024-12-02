@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Node from './Node';
-import Stats from './Stats';
-import { NodeData } from '../types';
+import { NodeData } from '../../types';
+import { useNodes } from '@/contexts/NodesContext';
+import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 
-interface SkillTreeProps {
-  nodes: Map<string, NodeData>; // Map of nodes instead of an array
-  onNodeActivate: (id: string) => void;
-  onNodeHover: (id: string | null) => void;
-  hiddenSmalls: boolean;
-  hiddenNoID: boolean;
-}
+interface SkillTreeProps {}
 
-const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHover, hiddenSmalls, hiddenNoID }) => {
+const SkillTree: React.FC<SkillTreeProps> = () => {
+  const { displayedNodes, allNodes} = useNodes();
+
   const [windowWidth, setWindowWidth] = useState<number>(0);
   const [windowHeight, setWindowHeight] = useState<number>(0);
 
@@ -41,7 +38,29 @@ const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHove
   }, []);
 
   return (
+
+      
+
     <div
+      style={{
+        position: 'relative',
+        width: '100vw', 
+        height: '100vh', 
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+
+    <TransformWrapper
+    initialScale={2}
+    minScale={0.8}
+    maxScale={10}
+    centerOnInit={true}
+    doubleClick={{disabled: true}}
+    panning={{velocityDisabled: true}}
+    >
+      <TransformComponent>
+      <div
       style={{
         position: 'relative',
         width: '100vw', 
@@ -68,21 +87,19 @@ const SkillTree: React.FC<SkillTreeProps> = ({ nodes, onNodeActivate, onNodeHove
           }}
         />
 
-        {Array.from(nodes.values())
-        .filter(
-          (node) =>
-            !(hiddenSmalls && node.type === 'small') && // Hide small nodes if hiddenSmalls is true
-            !(hiddenNoID && node.stats.length === 0) // Hide nodes with no stats if hiddenNoID is true
-        )
+        {Array.from(allNodes.values())
+        .filter((node) => {return displayedNodes.has(node.id)})
         .map((node) => (
-        
-          <Node key={node.id} node={node} onActivate={onNodeActivate} onHover={onNodeHover}/>
-        
-        
+          <Node key={node.id} node={node}/>
         ))}
 
       </div>
+      </div>
+
+      </TransformComponent>
+      </TransformWrapper>
     </div>
+
   );
 };
 

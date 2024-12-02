@@ -1,15 +1,11 @@
 import "./globals.css";
+import { NodesProvider } from "../contexts/NodesContext";
 
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <NodesProvider>{children}</NodesProvider>
       </body>
     </html>
   );

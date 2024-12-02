@@ -7,6 +7,4 @@ export interface NodeData {
   type: NodeType;
   name: string | null;
   stats: string[];
-  activated: boolean;
-  highlighted: boolean;
 }
