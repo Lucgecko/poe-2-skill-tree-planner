@@ -39,6 +39,12 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
     }
   }, []);
 
+
+  const [isGrabbing, setIsGrabbing] = useState(false);
+
+  const handleMouseDown = () => setIsGrabbing(true);
+  const handleMouseUp = () => setIsGrabbing(false);
+
   return (
 
       
@@ -51,6 +57,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+
       }}>
 
     <TransformWrapper
@@ -74,7 +81,16 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        
+
       }}
+
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onMouseLeave={handleMouseUp} // Reset on mouse leave
+      className={`${
+        isGrabbing ? 'cursor-grabbing' : 'cursor-grab'
+      }`}
     >
       <div
         style={{
