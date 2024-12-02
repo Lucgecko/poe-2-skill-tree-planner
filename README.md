@@ -1,6 +1,5 @@
 # Basics
-Runs on nextjs  
-is shitty af cause I cba to make an actual optimized site for 1 week before launch  
+Runs on nextjs
 
 # If you want to help
 either do pull request to add more nodes (would love help with the small ones)  
