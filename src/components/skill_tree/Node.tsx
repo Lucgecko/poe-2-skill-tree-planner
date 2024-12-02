@@ -6,7 +6,7 @@ interface NodeProps {
   node: NodeData;
 }
 
-const Node: React.FC<NodeProps> = ({ node }) => {
+const Node: React.FC<NodeProps> = React.memo(({ node })=> {
   const {setHoveredNode,setSelectedNodes, selectedNodes, highlightedNodes} = useNodes();
   const [isHighlighted, setIsHighlighted] = useState<boolean>(false);
   const [isSelected, setIsSelected] = useState<boolean>(false);
@@ -76,6 +76,6 @@ const Node: React.FC<NodeProps> = ({ node }) => {
       ></div>
 
   );
-};
+});
 
 export default Node;

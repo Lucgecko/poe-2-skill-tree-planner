@@ -62,6 +62,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
     doubleClick={{disabled: true}}
     panning={{velocityDisabled: true}}
     smooth={true}
+    wheel={{step:0.3, smoothStep: 0.005}}
     >
       <TransformComponent>
 
