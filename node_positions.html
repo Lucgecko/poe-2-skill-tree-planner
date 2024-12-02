@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Tree</title>
+  <style>
+    body {
+      margin: 0;
+      cursor: crosshair; /* Custom plus cursor */
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .zoom-container {
+      position: relative;
+      transform: scale(8); /* Zoom by 8x */
+      transform-origin: top left;
+    }
+    .image {
+      display: block;
+      max-width: none; /* Disable default image resizing */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="zoom-container">
+      <img src="public/skill-tree.png" alt="Skill Tree" class="image" id="skill-tree">
+    </div>
+  </div>
+
+  <script>
+    // Get the image element
+    const image = document.getElementById('skill-tree');
+
+    // Add click event listener
+    image.addEventListener('click', (event) => {
+      const rect = image.getBoundingClientRect();
+
+      // Calculate the click position relative to the image
+      const x = (event.clientX - rect.left) / rect.width;
+      const y = (event.clientY - rect.top) / rect.height;
+
+      // Log normalized (x, y) values
+      console.log(`x=${x.toFixed(3)}, y=${y.toFixed(3)}`);
+    });
+  </script>
+</body>
+</html>
