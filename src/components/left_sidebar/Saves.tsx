@@ -47,7 +47,7 @@ const Saves: React.FC<SavesProps> = ({}) => {
   };
 
   return (
-    <div className="mt-2 space-y-4">
+    <div className="mt-2 space-y-4 mb-2">
       <div>
         {/* Dropdown to select a save */}
         <div>
@@ -88,17 +88,17 @@ const Saves: React.FC<SavesProps> = ({}) => {
         <div>
         <button
         disabled={!currentSave} 
+          onClick={handleDeleteSave}
+          className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 mr-8 mt-4"
+        >
+          Delete Save
+        </button>
+        <button
+        disabled={!currentSave} 
           onClick={handleUpdateSave}
           className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 mr-2 mt-4"
         >
           Update Save
-        </button>
-        <button
-        disabled={!currentSave} 
-          onClick={handleDeleteSave}
-          className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 ml-6 mt-4"
-        >
-          Delete Save
         </button>
         </div>
       </div>
