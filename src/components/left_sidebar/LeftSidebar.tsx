@@ -15,6 +15,8 @@ interface LeftSidebarProps {
     const [searchQuery, setSearchQuery] = useState<string>("");
     const [hideSmallPassives, setHideSmallPassives] = useState<boolean>(false);
     const [hideNoStatPassives, setHideNoStatPassives] = useState<boolean>(false);
+    const [hideNoSelectPassives, setHideNoSelectPassives] = useState<boolean>(false);
+    const [hideAttrPassives, setHideAttrPassives] = useState<boolean>(false);
 
 
     const onSearchChange = (query: string) => {
@@ -30,11 +32,22 @@ interface LeftSidebarProps {
       setHideNoStatPassives(checked);
     };
 
+    const onHideNoSelectChange = (checked: boolean) => {
+      setHideNoSelectPassives(checked);
+    };
+
+    const onHideAttrChange = (checked: boolean) => {
+      setHideAttrPassives(checked);
+    };
+
     const onReset = () => {
       setSelectedNodes(new Set());
       setSearchQuery("");
       setHideSmallPassives(false);
       setHideNoStatPassives(false);
+      setHideNoSelectPassives(false);
+      setHideAttrPassives(false);
+      
     };
 
     useEffect(() => {
@@ -45,13 +58,17 @@ interface LeftSidebarProps {
   
           // Hide nodes with no stats if selected
           if (hideNoStatPassives && node.stats.length === 0) return false;
+
+          if (hideNoSelectPassives && !selectedNodes.has(node.id)) return false;
+
+          if (hideAttrPassives && (node.name?.toLowerCase().includes('attribute'.toLowerCase()))) return false;
   
           return true;
         })
         .map((node) => node.id); // Return only IDs for displayedNodes
   
       setDisplayedNodes(new Set(newDisplayedNodes));
-    }, [allNodes, hideSmallPassives, hideNoStatPassives, setDisplayedNodes]);
+    }, [allNodes, hideSmallPassives, hideNoStatPassives, hideNoSelectPassives,hideAttrPassives, setDisplayedNodes]);
 
 
     useEffect(() => {  
@@ -73,7 +90,7 @@ interface LeftSidebarProps {
   
       setHighlightedNodes(new Set(highlightedNodeIds));
   
-    }, [allNodes, hideSmallPassives, hideNoStatPassives, searchQuery, setDisplayedNodes, setHighlightedNodes]);
+    }, [allNodes, hideSmallPassives, hideNoStatPassives, hideNoSelectPassives,hideAttrPassives, searchQuery, setDisplayedNodes, setHighlightedNodes]);
   
 
     return (
@@ -97,7 +114,7 @@ interface LeftSidebarProps {
                 onChange={(e) => onHideSmallChange(e.target.checked)}
                 className="mr-2"
               />
-              Hide small passives
+              Hide small 
             </label>
 
             <br />
@@ -109,7 +126,27 @@ interface LeftSidebarProps {
                 onChange={(e) => onHideNoStatChange(e.target.checked)}
                 className="mr-2"
               />
-              Hide unidentified passives
+              Hide unidentified 
+            </label>
+<br />
+            <label className="">
+              <input
+                type="checkbox"
+                checked={hideNoSelectPassives}
+                onChange={(e) => onHideNoSelectChange(e.target.checked)}
+                className="mr-2"
+              />
+              Hide non-selected 
+            </label>
+            <br/>
+            <label className="">
+              <input
+                type="checkbox"
+                checked={hideAttrPassives}
+                onChange={(e) => onHideAttrChange(e.target.checked)}
+                className="mr-2"
+              />
+              Hide attributes
             </label>
           </div>
         </div>

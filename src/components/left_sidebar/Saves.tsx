@@ -55,7 +55,7 @@ const Saves: React.FC<SavesProps> = ({}) => {
             id="saveSelector"
             value={currentSave}
             onChange={handleSaveSelection}
-            className="p-2 border rounded-md mb-2 bg-gray-700"
+            className="p-2 border rounded-md mb-4 bg-gray-700"
             >
             {/* Render the default option only if no currentSave is selected */}
             <option value="">-- Select a save --</option>
@@ -75,30 +75,30 @@ const Saves: React.FC<SavesProps> = ({}) => {
           value={newSaveName}
           onChange={(e) => setNewSaveName(e.target.value)}
           className="p-2 border rounded-md bg-gray-700"
-          placeholder="Enter save name"
+          placeholder="Enter new save name"
         />
       
         <button
           onClick={handleAddSave}
           className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 ml-2"
         >
-          Add Save
+          Add
         </button>
         </div>
         <div>
         <button
         disabled={!currentSave} 
           onClick={handleUpdateSave}
-          className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 ml-2 mt-4"
+          className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 mr-2 mt-4"
         >
-          Update Current Save
+          Update Save
         </button>
         <button
         disabled={!currentSave} 
           onClick={handleDeleteSave}
-          className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 ml-2 mt-4"
+          className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 ml-6 mt-4"
         >
-          Delete Current Save
+          Delete Save
         </button>
         </div>
       </div>
