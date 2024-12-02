@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useNodes } from "../../contexts/NodesContext";
+import Saves from "./Saves";
 
 
 interface LeftSidebarProps {
@@ -115,12 +116,17 @@ interface LeftSidebarProps {
 
         <div>
 
-          <p>{selectedNodes.size}/122 passive skills</p>
+          <p>{selectedNodes.size}/122 passive skills
           <button
             onClick={onReset}
-            className="px-2 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600">
+            className="px-2 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 ml-2 mb-1">
             Reset
           </button>
+          </p>
+
+
+
+          <Saves/>
         </div>
       </div>
     );
