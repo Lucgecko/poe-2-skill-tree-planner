@@ -220,7 +220,7 @@ interface LeftSidebarProps {
           Contribute Here
         </a>
           <br></br>
-          <a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" className="text-blue-500 gover:text-blue-700 font-semibold text-l">
+          <a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" className="text-blue-500 hover:text-blue-700 font-semibold text-l">
             And Here
           </a>
           <div className="mt-2">
