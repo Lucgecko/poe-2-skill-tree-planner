@@ -55,7 +55,7 @@ const Saves: React.FC<SavesProps> = ({}) => {
             id="saveSelector"
             value={currentSave}
             onChange={handleSaveSelection}
-            className="p-2 border rounded-md mb-4 bg-gray-700"
+            className="p-2 border rounded-md mb-4 bg-gray-700 cursor-pointer"
             >
             {/* Render the default option only if no currentSave is selected */}
             <option value="">-- Select a save --</option>

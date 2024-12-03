@@ -11,6 +11,15 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
 
   const combinedNodes = new Map<string, NodeData>();
 
+  nodesData.ascendancies.forEach((node: any) => {
+    combinedNodes.set(node.id, {
+      ...node,
+      type: node.kind=="small" ? "small" : "notable",
+      name: nodesDescData[node.id]?.name || null,
+      stats: nodesDescData[node.id]?.stats || [],
+    });
+  });
+
   // Add keystone nodes
   nodesData.keystones.forEach((node: any) => {
     combinedNodes.set(node.id, {
@@ -40,6 +49,9 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
       stats: nodesDescData[node.id]?.stats || [],
     });
   });
+
+
+
 
   
   return combinedNodes;

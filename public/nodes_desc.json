@@ -1,4 +1,1087 @@
 {
+  "A1-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A15-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-GemlingLegionnaire": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Witchunter": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A3-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A5-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A6-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A7-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A8-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A9-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A10-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A11-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A12-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A13-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A14-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A15-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A16-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A17-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A18-AcolyteOfChayula": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A2-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A19-Invoker": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Deadeye": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A3-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A4-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A19-Pathfinder": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A1-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Chronomancer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A19-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A20-Stormweaver": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+  "A3-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Titan": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Warbringer": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-BloodMage": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A1-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A2-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A3-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A4-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A5-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A6-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A7-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A8-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A9-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A10-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A11-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A12-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A13-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A14-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A15-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A16-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A17-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A18-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A19-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+  "A20-Infernalist": {
+    "name": "",
+    "stats": [
+    ]
+  },
+
+
   "K1": {
     "name": "Whispers of Doom",
     "stats": [
@@ -1551,10 +2634,9 @@
     "stats": []
   },
   "N290": {
-    "name": "Heartstopper",
+    "name": "Subterfuge Mask",
     "stats": [
-      "Take 75% less Damage over Time if you've started taking Damage over Time in the past second",
-      "Take 50% more Damage over Time if you haven't started taking Damage over Time in the past second"
+      "+2 to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet"
     ]
   },
   "N291": {
@@ -6459,9 +7541,15 @@
     "stats": []
   },
   "S769": {
+    "name": "Spell Damage",
+    "stats": ["8% increased Spell Damage"]
+    },
+
+  "S769-witch": {
     "name": "Spell and Minion Damage",
     "stats": ["5% increased Spell Damage","Minions deal 5% increased Damage"]
   },
+
   "S770": {
     "name": "Energy Shield",
     "stats": ["+10 to maximum Energy Shield"]

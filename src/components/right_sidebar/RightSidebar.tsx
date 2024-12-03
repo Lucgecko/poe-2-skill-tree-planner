@@ -3,12 +3,15 @@ import StatList from "./StatList";
 import { useState } from "react";
 import { NodeData } from "@/types";
 import MergedStatList from "./MergedStatList";
+import { useAllNodes } from "@/contexts/AllNodesContext";
 
 // components/Sidebar.tsx
 interface RightSidebarProps { }
   
   export default function RightSidebar({}: RightSidebarProps) {
-    const { selectedNodes, allNodes } = useNodes();
+
+    const {allNodes} = useAllNodes();
+    const { selectedNodes } = useNodes();
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [isMerged, setIsMerged] = useState<boolean>(false);

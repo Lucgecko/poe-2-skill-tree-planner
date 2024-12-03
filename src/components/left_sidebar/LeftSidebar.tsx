@@ -4,6 +4,8 @@ import React, { Ref, RefObject, useEffect, useState } from "react";
 import { useNodes } from "../../contexts/NodesContext";
 import Saves from "./Saves";
 import { ReactZoomPanPinchContentRef } from "react-zoom-pan-pinch";
+import { useAscendancy } from "@/contexts/AscendancyContext";
+import { useAllNodes } from "@/contexts/AllNodesContext";
 
 
 interface LeftSidebarProps {
@@ -11,7 +13,9 @@ interface LeftSidebarProps {
   }
   
   export default function LeftSidebar({wrapperRef }: LeftSidebarProps) {
-    const { selectedNodes, setSelectedNodes, allNodes, setDisplayedNodes, setHighlightedNodes, highlightedNodes } = useNodes();
+    const {allNodes} = useAllNodes();
+    const { selectedNodes, setSelectedNodes, setDisplayedNodes, setHighlightedNodes, highlightedNodes , displayedNodes, savedTrees} = useNodes();
+    const {ascendancy, setAscendancy, getAscendancies, getClasses, characterClass} = useAscendancy();
   
     // Local states for the sidebar filters and search query
     const [searchQuery, setSearchQuery] = useState<string>("");
@@ -70,10 +74,27 @@ interface LeftSidebarProps {
   
           return true;
         })
+        .filter((node) => {
+
+          const baseId = node.id.split('-')[0];
+
+          if(node.id.toLowerCase() == `${baseId.toLowerCase()}-${ascendancy.toLowerCase()}`) {
+            console.log(node.id);
+          }
+
+          if(node.id.toLowerCase() == `${baseId.toLowerCase()}-${ascendancy.toLowerCase()}`) return true;
+
+          if(node.id == `${baseId}-${characterClass.toLowerCase()}`) return true;
+
+          if(node.id == baseId && !allNodes.has(`${baseId}-${characterClass.toLowerCase()}`)) return true;
+
+          return false;
+        })
         .map((node) => node.id); // Return only IDs for displayedNodes
-  
+      
       setDisplayedNodes(new Set(newDisplayedNodes));
-    }, [allNodes, hideSmallPassives, hideNoStatPassives, hideNoSelectPassives,hideAttrPassives, setDisplayedNodes]);
+    }, [allNodes, hideSmallPassives, hideNoStatPassives, hideNoSelectPassives,hideAttrPassives,ascendancy, setDisplayedNodes]);
+
 
 
     useEffect(() => {  
@@ -81,6 +102,7 @@ interface LeftSidebarProps {
         setHighlightedNodes(new Set());
         return;
       }
+    
         
 
       const highlightedNodeIds = Array.from(allNodes.values())
@@ -103,7 +125,6 @@ interface LeftSidebarProps {
       const nodeId = Array.from(highlightedNodes)[hIndex];
       const node = allNodes.get(nodeId);
       if (node) {
-        console.log("trying to zoom");
         wrapperRef?.current?.zoomToElement(`passive-${node.id}`);
       }
       setHIndex((hIndex+1) % highlightedNodes.size);
@@ -170,6 +191,19 @@ interface LeftSidebarProps {
               Hide attributes
             </label>
           </div>
+          <select
+            id="saveSelector"
+            value={ascendancy}
+            onChange={(e) => setAscendancy(e.target.value)}
+            className="p-2 border rounded-md  bg-gray-700 cursor-pointer mt-2"
+            >
+            {/* Render the default option only if no currentSave is selected */}
+            {Array.from(getAscendancies()).map((saveName) => (
+                <option key={saveName} value={saveName}>
+                {saveName}
+                </option>
+            ))}
+        </select>
         </div>
 
         <div>

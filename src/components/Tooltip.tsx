@@ -1,15 +1,17 @@
+import { useHover } from "@/contexts/HoverContext";
 import { useNodes } from "../contexts/NodesContext";
 import React from 'react';
+import { useAllNodes } from "@/contexts/AllNodesContext";
 
 interface TooltipProps {
-
-  nodeId: string;
   position: { x: number; y: number }; // The position of the mouse
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ nodeId, position }) => {
-  const { allNodes } = useNodes(); // Access allNodes from context
-  const node = allNodes.get(nodeId);
+const Tooltip: React.FC<TooltipProps> = ({ position }) => {
+  const { allNodes } = useAllNodes(); // Access allNodes from context
+  const {hoveredNode} = useHover();
+  
+  const node = allNodes.get(hoveredNode);
 
   if (!node) return null;
 

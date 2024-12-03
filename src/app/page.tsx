@@ -9,7 +9,7 @@ import { useNodes } from "../contexts/NodesContext";
 import { ReactZoomPanPinchContentRef } from 'react-zoom-pan-pinch';
 
 export default function Home() {
-  const { hoveredNode } = useNodes();
+  
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const transformWrapperRef = useRef<ReactZoomPanPinchContentRef>(null);
 
@@ -37,9 +37,9 @@ export default function Home() {
     <div onMouseMove={handleMouseMove} className='bg-gray-900'>
       <LeftSidebar wrapperRef={transformWrapperRef}/>
       <RightSidebar />
+      <Tooltip position={mousePosition} />
       <SkillTree wrapperRef={transformWrapperRef} />
-      <Tooltip nodeId={hoveredNode} position={mousePosition} />
-
+    
       {isVisible && (
         <div
           className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white p-4 rounded-md shadow-lg z-50 hidden"

@@ -3,19 +3,17 @@
 import React, { createContext, useContext, useState, useEffect, useMemo } from "react";
 import { loadNodes } from "../utils/loadNodes";
 import { NodeData } from "../types";
+import { useAllNodes } from "./AllNodesContext";
 
 interface NodesContextType {
-  allNodes: Map<string, NodeData>;
   displayedNodes: Set<string>;
   selectedNodes: Set<string>;
   highlightedNodes: Set<string>;
-  hoveredNode: string;
   savedTrees: Map<string, Set<string>>;
 
   setDisplayedNodes: React.Dispatch<React.SetStateAction<Set<string>>>;
   setSelectedNodes: React.Dispatch<React.SetStateAction<Set<string>>>;
   setHighlightedNodes: React.Dispatch<React.SetStateAction<Set<string>>>;
-  setHoveredNode: React.Dispatch<React.SetStateAction<string>>;
   setSavedTrees: React.Dispatch<React.SetStateAction<Map<string, Set<string>>>>;
 }
 
@@ -24,18 +22,17 @@ const NodesContext = createContext<NodesContextType | undefined>(undefined);
 
 
 export const NodesProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [allNodes, setAllNodes] = useState<Map<string, NodeData>>(new Map());
   const [displayedNodes, setDisplayedNodes] = useState<Set<string>>(new Set());
   const [selectedNodes, setSelectedNodes] = useState<Set<string>>(new Set());
   const [highlightedNodes, setHighlightedNodes] = useState<Set<string>>(new Set());
-  const [hoveredNode, setHoveredNode] = useState<string>("");
   const [savedTrees, setSavedTrees] = useState<Map<string, Set<string>>>(new Map());
+
+  const {allNodes} = useAllNodes();
 
   useEffect(() => {
     async function fetchNodes() {
-      const nodes = await loadNodes();
-      setAllNodes(nodes);
-      setDisplayedNodes(new Set(nodes.keys()));
+      const keys = new Set(allNodes.keys().filter((id)=>!id.includes('-')));
+      setDisplayedNodes(keys);
     }
     fetchNodes();
 
@@ -60,19 +57,16 @@ export const NodesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const contextValue = useMemo(
     () => ({
-      allNodes,
       displayedNodes,
       selectedNodes,
       highlightedNodes,
-      hoveredNode,
       savedTrees,
       setDisplayedNodes,
       setSelectedNodes,
       setHighlightedNodes,
-      setHoveredNode,
       setSavedTrees
     }),
-    [allNodes, selectedNodes, highlightedNodes, hoveredNode, savedTrees]
+    [displayedNodes, selectedNodes, highlightedNodes, savedTrees]
   );
 
   return (

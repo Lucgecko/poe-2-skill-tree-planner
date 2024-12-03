@@ -1,19 +1,27 @@
-import React, { LegacyRef, Ref, useEffect, useRef, useState } from 'react';
+import React, { LegacyRef, Ref, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import Node from './Node';
 import { NodeData } from '../../types';
 import { useNodes } from '@/contexts/NodesContext';
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchContentRef } from 'react-zoom-pan-pinch';
+import { useAscendancy } from '@/contexts/AscendancyContext';
+import { useAllNodes } from '@/contexts/AllNodesContext';
+import NodeList from './NodeList';
 
 interface SkillTreeProps {
   wrapperRef: Ref<ReactZoomPanPinchContentRef> | null;
 }
 
 const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
-  const { displayedNodes, allNodes} = useNodes();
+  const { ascendancy} = useAscendancy();
+
+  const [prevAscImg, setPrevAscImg] = useState<string>("");
+  const [currAscImg, setCurrAscImg] = useState<string>("");
 
   const [windowWidth, setWindowWidth] = useState<number>(0);
   const [windowHeight, setWindowHeight] = useState<number>(0);
+
+
 
   const imageWidth = 2750;
   const imageHeight = 2864;
@@ -30,7 +38,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
       
       const handleResize = () => {
         setWindowWidth(window.innerWidth);
-      
+
         setWindowHeight(window.innerHeight);
       };
 
@@ -39,16 +47,31 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
     }
   }, []);
 
+  useEffect(() => {
+    const prev = currAscImg;
+    setCurrAscImg(`/asc2/${ascendancy}.png`);
 
+  }, [ascendancy, setPrevAscImg, setCurrAscImg]);
+  
   const [isGrabbing, setIsGrabbing] = useState(false);
 
   const handleMouseDown = () => setIsGrabbing(true);
   const handleMouseUp = () => setIsGrabbing(false);
 
+  const divRef = useRef<HTMLDivElement | null>(null);
+  const handleClick = (event: { clientX: number; clientY: number; }) => {
+    if (divRef.current) {
+      const rect = divRef.current.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+    }
+  };
+
+  const updatePrev = () => {
+    setPrevAscImg(currAscImg);
+  };
+
   return (
-
-      
-
     <div
       style={{
         position: 'relative',
@@ -98,6 +121,9 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
           width: `${scaledWidth}px`,
           height: `${scaledHeight}px`,
         }}
+
+        ref={divRef}
+        onClick={handleClick}
       >
         <img
           src="/skill-tree.png"
@@ -108,12 +134,72 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
             objectFit: 'contain',
           }}
         />
+          {
+            
+          }
 
-        {Array.from(allNodes.values())
-        .filter((node) => {return displayedNodes.has(node.id)})
-        .map((node) => (
-          <Node key={node.id} node={node}/>
-        ))}
+          {prevAscImg && 
+          <div
+              style={{
+                position: 'absolute',
+                top: '50.4%',
+                left: '50.15%',
+                transform: 'translate(-50%, -50%)',
+                width:"100px", 
+                aspectRatio: '1',
+                borderRadius: '50%', // Makes it a circle
+                overflow: 'hidden', // Ensures the image is clipped to the circle
+              }}
+            >
+                <Image
+                src={prevAscImg}
+                alt="asc"
+                fill={true}
+                
+                priority={true}
+                quality={30}
+                sizes="width: 800px"
+
+                className="transition-opacity duration-500 opacity-100"
+                style={{ objectFit: 'cover' }}
+              />
+          </div>
+          }
+            { currAscImg && 
+
+            <div
+                style={{
+                  position: 'absolute',
+                  top: '50.4%',
+                  left: '50.15%',
+                  transform: 'translate(-50%, -50%)',
+                  width:"100px", 
+                  aspectRatio: '1',
+                  borderRadius: '50%', // Makes it a circle
+                  overflow: 'hidden', // Ensures the image is clipped to the circle
+                }}
+              >
+            <Image
+              src={currAscImg}
+              alt="asc"
+              fill={true}
+              
+              priority={true}
+              loading="eager"
+              sizes="(max-width: 2000px) 100vw, (max-width: 2000px) 50vw, 33vw"
+              quality={75}
+              onLoad={updatePrev}
+
+              className="transition-opacity duration-500 opacity-100"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+
+        }
+
+  
+
+        <NodeList/>
 
       </div>
       </div>
@@ -125,4 +211,4 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
   );
 };
 
-export default SkillTree;
+export default React.memo(SkillTree);
