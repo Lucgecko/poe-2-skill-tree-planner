@@ -187,6 +187,10 @@ interface LeftSidebarProps {
               Hide attributes
             </label>
           </div>
+          <br></br>
+          <div className="text-xl">
+            Ascendancies
+          </div>
           <select
             id="saveSelector"
             value={ascendancy}
