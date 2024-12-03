@@ -220,12 +220,6 @@ interface LeftSidebarProps {
           Contribute Here
         </a>
         <br/>
-        <div className="mt-2">
-        <a href="https://www.paypal.me/andrewis2431" target="_blank" className="text-blue-800 hover:text-blue-900 font-semibold text-[10px]">
-          Donate
-        </a>
-        </div>
-        </div>
       </div>
     );
   }
