@@ -219,6 +219,9 @@ interface LeftSidebarProps {
           <a href="https://github.com/andrej2431/poe-2-skill-tree-planner"  target="_blank" className="text-blue-500 hover:text-blue-700 font-semibold text-l">
           Contribute Here
         </a>
+          <a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" className="text-blue-500 gover:text-blue-700 font-semibold text-l">
+            And Here
+          </a>
         <br/>
       </div>
     );
