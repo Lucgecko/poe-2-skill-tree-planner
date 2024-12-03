@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { useNodes } from "./NodesContext";
+import { useAllNodes } from "./AllNodesContext";
 
 type AscendancyContextType = {
     ascendancy: string;
@@ -28,14 +29,32 @@ type AscendancyContextType = {
   };
   
   export const AscendancyProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+    const {setSelectedNodes, selectedNodes} = useNodes();
+    const {allNodes} = useAllNodes();
+
     const [ascendancy, setAscendancyState] = useState<string>("GemlingLegionnaire");
     const [characterClass, setCharacterClass] = useState<string>("mercenary");
   
     const setAscendancy = (newAscendancy: string) => {
+        if(newAscendancy == ascendancy) return;
+
+
         const newClass = ASCENDANCY_TO_CLASS[newAscendancy].toLowerCase();
+        const newSelectedNodes = Array.from(selectedNodes).filter((nodeId) => {
+          return (nodeId.at(0) != "A");
+        }).map((nodeId) => {
+          const baseId = nodeId.split('-')[0];
+          if(allNodes.has(`${baseId}-${newClass}`)) {
+            return `${baseId}-${newClass}`;
+          }
+
+          return baseId;
+        });
+        setSelectedNodes(new Set(newSelectedNodes));
+
         setAscendancyState(newAscendancy);
         setCharacterClass(newClass);
-        console.log("setting ascend");
+
     };
 
 

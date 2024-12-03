@@ -78,10 +78,6 @@ interface LeftSidebarProps {
 
           const baseId = node.id.split('-')[0];
 
-          if(node.id.toLowerCase() == `${baseId.toLowerCase()}-${ascendancy.toLowerCase()}`) {
-            console.log(node.id);
-          }
-
           if(node.id.toLowerCase() == `${baseId.toLowerCase()}-${ascendancy.toLowerCase()}`) return true;
 
           if(node.id == `${baseId}-${characterClass.toLowerCase()}`) return true;

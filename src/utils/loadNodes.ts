@@ -17,6 +17,7 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
       type: node.kind=="small" ? "small" : "notable",
       name: nodesDescData[node.id]?.name || null,
       stats: nodesDescData[node.id]?.stats || [],
+      ascendancy: true
     });
   });
 
@@ -27,6 +28,7 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
       type: 'keystone',
       name: nodesDescData[node.id]?.name || null,
       stats: nodesDescData[node.id]?.stats || [],
+      ascendancy: false
     });
   });
 
@@ -37,6 +39,7 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
       type: 'notable',
       name: nodesDescData[node.id]?.name || null,
       stats: nodesDescData[node.id]?.stats || [],
+      ascendancy: false
     });
   });
 
@@ -47,6 +50,7 @@ export async function loadNodes(): Promise<Map<string, NodeData>> {
       type: 'small',
       name: nodesDescData[node.id]?.name || null,
       stats: nodesDescData[node.id]?.stats || [],
+      ascendancy: false
     });
   });
 

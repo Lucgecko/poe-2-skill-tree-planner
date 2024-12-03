@@ -97,97 +97,97 @@
       "kind": "small"
     },
     {
-      "id": "A1-Witchunter",
+      "id": "A1-WitchHunter",
       "x": 0.4576664927664185,
       "y": 0.5159383188193588,
       "kind": "big"
     },
     {
-      "id": "A2-Witchunter",
+      "id": "A2-WitchHunter",
       "x": 0.48026817424804863,
       "y": 0.5103896135172626,
       "kind": "big"
     },
     {
-      "id": "A3-Witchunter",
+      "id": "A3-WitchHunter",
       "x": 0.5023561811505508,
       "y": 0.5094031770191122,
       "kind": "big"
     },
     {
-      "id": "A4-Witchunter",
+      "id": "A4-WitchHunter",
       "x": 0.524315769408271,
       "y": 0.5101430043927251,
       "kind": "big"
     },
     {
-      "id": "A5-Witchunter",
+      "id": "A5-WitchHunter",
       "x": 0.5466606136003371,
       "y":0.5159383188193588,
       "kind": "big"
     },
     {
-      "id": "A6-Witchunter",
+      "id": "A6-WitchHunter",
       "x": 0.48026817424804863,
       "y": 0.5311047799784216,
       "kind": "big"
     },
     {
-      "id": "A7-Witchunter",
+      "id": "A7-WitchHunter",
       "x": 0.5026130184401147,
       "y": 0.5319679119143034,
       "kind": "big"
     },
     {
-      "id": "A8-Witchunter",
+      "id": "A8-WitchHunter",
       "x": 0.524058932118707,
       "y": 0.5314746936652281,
       "kind": "big"
     },
     {
-      "id": "A9-Witchunter",
+      "id": "A9-WitchHunter",
       "x": 0.4685820775728876,
       "y":0.547257677635635 ,
       "kind": "small"
     },
     {
-      "id": "A10-Witchunter",
+      "id": "A10-WitchHunter",
       "x": 0.48720278106627607,
       "y": 0.5457780228884094,
       "kind": "small"
     },
     {
-      "id": "A11-Witchunter",
+      "id": "A11-WitchHunter",
       "x": 0.5022277625057688,
       "y":0.5479975050092478,
       "kind": "small"
     },
     {
-      "id": "A12-Witchunter",
+      "id": "A12-WitchHunter",
       "x": 0.5169959066556976,
       "y": 0.545408109201603,
       "kind": "small"
     },
     {
-      "id": "A13-Witchunter",
+      "id": "A13-WitchHunter",
       "x":0.536258703372996 ,
       "y": 0.546641154824291,
       "kind": "small"
     },
     {
-      "id": "A14-Witchunter",
+      "id": "A14-WitchHunter",
       "x": 0.4805250115376126,
       "y": 0.5211171104346486,
       "kind": "small"
     },
     {
-      "id": "A15-Witchunter",
+      "id": "A15-WitchHunter",
       "x": 0.5022277625057688,
       "y": 0.5193908465628854,
       "kind": "small"
     },
     {
-      "id": "A16-Witchunter",
+      "id": "A16-WitchHunter",
       "x": 0.5239305134739249,
       "y": 0.5212404149969174,
       "kind": "small"
@@ -788,7 +788,7 @@
       "id": "A9-Stormweaver",
       "x": 0.5429609276240545,
       "y": 0.4858014916962084,
-      "kind": "small"
+      "kind": "big"
     },
     {
       "id": "A10-Stormweaver",
@@ -1004,7 +1004,7 @@
       "id": "A9-Warbringer",
       "x":0.5154793376407087 ,
       "y": 0.5320407025470099,
-      "kind": "small"
+      "kind": "big"
     },
     {
       "id": "A10-Warbringer",
@@ -1208,13 +1208,13 @@
       "id": "A9-Infernalist",
       "x": 0.4656773581876919,
       "y": 0.5243501825485511,
-      "kind": "small"
+      "kind": "big"
     },
     {
       "id": "A10-Infernalist",
       "x": 0.4774918735076349,
       "y":0.5096769396385635 ,
-      "kind": "small"
+      "kind": "big"
     },
     {
       "id": "A11-Infernalist",

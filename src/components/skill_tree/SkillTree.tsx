@@ -49,7 +49,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
 
   useEffect(() => {
     const prev = currAscImg;
-    setCurrAscImg(`/asc2/${ascendancy}.png`);
+    setCurrAscImg(`/asc2/${ascendancy}.webp`);
 
   }, [ascendancy, setPrevAscImg, setCurrAscImg]);
   
@@ -126,7 +126,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
         onClick={handleClick}
       >
         <img
-          src="/skill-tree.png"
+          src="/skill-tree.webp"
           alt="Skill Tree Background"
           style={{
             width: '100%',
