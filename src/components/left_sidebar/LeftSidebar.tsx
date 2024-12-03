@@ -225,6 +225,7 @@ interface LeftSidebarProps {
           </a>
           <div className="mt-2">
             </div>
+          </div>
         <br/>
       </div>
     );
